@@ -1,8 +1,9 @@
 import "./index.css";
 import woman from "./assets/stylish-woman-in-the-urban-setting-SBI-304380469 1.png";
 import man from "./assets/young-black-man-training-and-playing-with-his-white-labrador-dog-through-the-city-park-SBI-351227918 1.png"
+import left from "./assets/Left Image.png"
 
-export default function About() {
+export default function App() {
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] flex min-h-screen w-full items-center justify-center bg-[#BFDBE8]">
       {/* CARD ----------------------------------------------------------- */}
@@ -124,6 +125,28 @@ export default function About() {
             </p>
           </section>
         </div>
+
+        <header className="text-left">
+          <h2 className="mt-12 text-2xl font-semibold leading-snug text-[#393D43] lg:text-5xl">
+            What is the Epi-Metabolic Score?
+          </h2>
+        </header>
+
+        <img
+            src={left}
+            alt="Man exercising outside"
+            className="mx-auto mb-6"
+          />
+
+          <section className="text-center text-lg leading-relaxed text-[#7F7F7F] md:text-left md:text-2xl py-4">
+            <p className="mb-6">
+              This unique index leverages the latest scientific research to highlight methylation marks on dozens of genes implicated in insulin resistance, 
+              chronic inflammation, lipid metabolism, and energy regulation- all factors linked to the development of obesity and Type 2 diabetes. In a single
+              index, your EMS can provide you with an accurate snapshot of your current metabolic efficiency and fitness. It can provide crucial information to
+              help you adopt the kind of diet and exercise changes necessary to support a metabolism biologically younger than your chronological age.
+            </p>
+          </section>
+
         </div>
     </main>
   );
