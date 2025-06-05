@@ -3,7 +3,7 @@ import woman from "./assets/stylish-woman-in-the-urban-setting-SBI-304380469 1.p
 import man from "./assets/young-black-man-training-and-playing-with-his-white-labrador-dog-through-the-city-park-SBI-351227918 1.png"
 import left from "./assets/Left Image.png"
 
-export default function App() {
+export default function About() {
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] flex min-h-screen w-full items-center justify-center bg-[#BFDBE8]">
       {/* CARD ----------------------------------------------------------- */}
