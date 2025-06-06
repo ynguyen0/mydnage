@@ -5,6 +5,7 @@ import Navbar from './components/navbar.tsx'
 import About from './components/about/about.tsx'
 import Landing from './components/landing/landing.tsx'
 import LogoMark from './components/logomark/LogoMark.tsx'
+import Footer from './components/footer/Footer.tsx'
 import './index.css'
 
 const DummyPage = ({ label }: {label: string}) => (
@@ -18,6 +19,7 @@ const AppLayout = () => (
     <div className='pt-20'>
       <Outlet />
     </div>
+    <Footer />
   </div>
 );
 
