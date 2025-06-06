@@ -2,10 +2,12 @@ import "../../index.css"; // Import global styles
 import woman from "../../assets/stylish-woman-in-the-urban-setting-SBI-304380469 1.png";
 import man from "../../assets/young-black-man-training-and-playing-with-his-white-labrador-dog-through-the-city-park-SBI-351227918 1.png";
 import left from "../../assets/Left Image.png";
+import { Link } from "react-router-dom";
+import { HiOutlineQuestionMarkCircle } from "react-icons/hi";
 
 export default function About() {
   return (
-    <main className="font-['Poppins',_ui-sans-serif,_system-ui] flex min-h-screen w-full items-center justify-center bg-[#BFDBE8] px-4 py-8 sm:px-6 lg:px-8">
+    <main className="font-['Poppins',_ui-sans-serif,_system-ui] flex min-h-screen w-full items-center justify-center px-4 py-8 sm:px-6 lg:px-8">
       {/* CARD ----------------------------------------------------------- */}
       <div className="relative mt-16 sm:mt-20 lg:mt-24 w-full max-w-7xl rounded-2xl bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-6 shadow-2xl text-sm sm:text-base lg:text-lg">
         {/* TITLE  ------------------------------------ */}
@@ -168,6 +170,74 @@ export default function About() {
             biologically younger than your chronological age.
           </p>
         </section>
+
+        <header className="text-left">
+          <h2 className="mt-6 sm:mt-8 lg:mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43]">
+            What is TrueAge?
+          </h2>
+
+          <p className="pt-3 sm:pt-4 text-base sm:text-lg md:text-xl lg:text-2xl leading-snug text-[#7F7F7F]">
+            While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age,
+            that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.
+          </p>
+
+          <Link to="/myDNAge">
+            <button
+              type="button"
+              className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
+            >
+             <HiOutlineQuestionMarkCircle className="h-7 w-7 text-[#AFD5E7]" />
+              <span className="text-[#AFD5E7]">Find your true age</span>
+            </button>
+          </Link>
+        </header>
+
+        <header className="text-left">
+          <h2 className="mt-6 sm:mt-8 lg:mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43]">
+            Why does TrueAge matter?
+          </h2>
+
+          <p className="pt-3 sm:pt-4 text-base sm:text-lg md:text-xl lg:text-2xl leading-snug text-[#7F7F7F]">
+            Your aging process is not just governed by your genetics. TrueAge is calculated by looking at epigenetic modifications, specifically methylation.
+          </p>
+        </header>
+
+        <div className="flex flex-col items-center gap-6 sm:gap-8 lg:gap-10 md:flex-row md:items-start">
+          {/* TEXT BLOCK */}
+          <section className="text-center text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#7F7F7F] md:text-left py-2">
+            <p className="mb-3 sm:mb-4">
+              Epigenetic activity is driven by your environment, including vital lifestyle factors like what you eat, how much you exercise, and the quality
+              of your sleep. These all have the power to affect how quickly your cells, and the organs and tissues they make up, age over time. By using MyDNAge to determine 
+              your TrueAge, you can learn your pace of aging and its effects on your overall health. More importantly, you can use repeatedd MyDNAge testing to monitor
+              your biological aging and measure whether different lifestyle interventions are working to slow it.
+            </p>
+          </section>
+        </div>
+
+        <header className="text-left">
+          <h2 className="mt-6 sm:mt-8 lg:mt-10 text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43]">
+            What is SWARM?
+          </h2>
+
+          <p className="pt-3 sm:pt-4 text-base sm:text-lg md:text-xl lg:text-2xl leading-snug text-[#7F7F7F]">
+            Epigenetic changes are incredibly dynamic. That means tha trying to measure methylation can result in "noisy" data that might provide different
+            results based on the time of day you take the test, natural hormonal fluctuations, or how well you slept the night before.
+          </p>
+        </header>
+
+        <div className="flex flex-col items-center gap-6 sm:gap-8 lg:gap-10 md:flex-row md:items-start">
+          {/* TEXT BLOCK */}
+          <section className="text-center text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#7F7F7F] md:text-left py-2">
+            <p className="mb-3 sm:mb-4">
+              To ensure that MyDNAge is reliable over time, Liv uses a proprietary algorithm called the Signal-Weighted Age Regression Model (SWARM).
+              Built in collaboration with Epimorphy and Zymo Research, a globally established biotechnology leader specializing in epigenetic measurements,
+              the SWARM model helps ensure that stable, biologically meaningful signals across aging pathways are not lost in all the noise. By using SWARM
+              to analyze your DNA methylation data, MyDNAge outperforms our competitors in consistency and reliability. SWARM means you can feel confident
+              that you results will reflect real epigenetic activity.
+            </p>
+          </section>
+        </div>
+        
       </div>
     </main>
   );

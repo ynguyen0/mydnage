@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import CartImg from '/src/assets/Cart.png'
 
 const NAV = [
-  { label: 'Home', path: '/' },
+  { label: 'Home', path: '/home' },
   { label: 'myDNAge', path: '/myDNAge' },
   { label: 'myDogDNAge', path: '/myDogDNAge' },
   { label: 'Our Science', path: '/our-science' },
