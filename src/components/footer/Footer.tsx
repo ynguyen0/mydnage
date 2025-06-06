@@ -4,23 +4,114 @@ import FbIcon from '../../assets/footer/facebook.svg?react';
 import XIcon from '../../assets/footer/x.svg?react';
 import YtIcon from '../../assets/footer/youtube.svg?react';
 import TtIcon from '../../assets/footer/tiktok.svg?react';
-
 export default function Footer() {
-    return (
-        <footer className='bg-harmony-500 font-[Poppins] text-netrual1-500'>
-            <div className='mx-auto px-80 py-53'>
-                {/* ───────────────── Row 1 ───────────────── */}
-                <div className='flex flex-col gap-10 lg:flex-row lg:items-start lg-justify-between'>
-                    {/* Brand / pitch / CTA */}
-                    <div className='max-w-[27.9375rem]'>
-                        <LivLogo className='w-40 md:w-48'/>
-                        <p className='mt-6 text-xl font-bold leading-[130%]'>
-                            Changing the way you age to live <br />
-                            healthier, longer, better
-                        </p>
-                    </div>
-                </div>
+  return (
+    <footer className="bg-harmony-500 font-[Poppins] text-neutral1-500">
+      <div className="mx-auto w-full max-w-[1750px] px-6 py-16">
+        
+        {/* ───────── Row 1: logo + headline + contact ───────── */}
+        <div className="flex flex-col items-start gap-6 px6 pb-6">
+            
+        
+          {/* logo (no shrink) */}
+          <LivLogo className="w-20 h-20 shrink-0 md:w-30 md:h-30" />
+
+          {/* headline */}
+           <p className="max-w-[35.9375rem] text-2xl font-bold leading-[140%] lg:text-3xl">
+            Changing the way you age to live
+            <br />
+            healthier, longer, better.
+          </p>
+
+          <button
+            className="
+              inline-flex h-12 items-center justify-center rounded-[2.0625rem]
+              bg-neutral1-500 px-5 py-[0.5625rem] text-harmony-500 font-semibold
+              transition-opacity hover:opacity-90
+            "
+          >
+            Contact&nbsp;Us
+          </button>
+
+          
+          
+        </div>
+
+        {/* divider */}
+        <hr className="my-10 border-[#AFD5E7]" />
+
+        <div className="mt-10 flex flex-col gap-10">
+          {/* newsletter + social */}
+          <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between py-2">
+            {/* social icons */}
+            <ul className="flex justify-center gap-2">
+              {[IgIcon, FbIcon, XIcon, YtIcon, TtIcon].map((Icon, i) => (
+                <li key={i}>
+                  <button
+                    aria-label="social icon"
+                    className="flex h-13 w-13 items-center justify-center rounded-full transition-opacity hover:opacity-80"
+                  >
+                    <Icon className="h-13 w-13 text-neutral1-500" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+
+            {/* email form */}
+            <div className="w-full max-w-[43vw]">
+              <form
+                onSubmit={e => e.preventDefault()}
+                className="flex w-full"
+              >
+                <input
+                  type="email"
+                  placeholder="Enter Your Email for Updates and Special Offers"
+                  className="
+                    h-13 w-full rounded-[0.4375rem] bg-neutral1-500 px-4
+                    text-coolgray-500 placeholder-text-coolgray-500 outline-none
+                  "
+                />
+                <button
+                  type="submit"
+                  className="
+                    ml-4 flex shrink-0 items-center justify-center rounded-[2.0625rem]
+                    bg-neutral1-500 px-5 py-[0.6875rem] text-harmony-500 font-semibold
+                    transition-opacity hover:opacity-90
+                  "
+                >
+                  Sign Up
+                </button>
+              </form>
             </div>
-        </footer>
-    )
+          </div>
+
+          {/* divider */}
+          <hr className="border-[#AFD5E7]" />
+
+          {/* legal + disclaimer row */}
+          <div className="flex flex-col gap-4 lg:flex-row lg:justify-between pt-2">
+            <div className="flex flex-wrap items-baseline gap-2 text-sm text-center lg:text-left">
+              <p className='text-neutral-200'>© Epimorphy LLC, 2025. All Rights Reserved.</p>
+              <span className="text-fresh-500">|</span>
+              <a href="#" className="text-fresh-500 hover:underline">Accessibility Statement</a>
+              <span className="text-fresh-500">|</span>
+              <a href="#" className="text-fresh-500 hover:underline">Privacy Policy</a>
+              <span className="text-fresh-500">|</span>
+              <a href="#" className="text-fresh-500 hover:underline">Terms of Use</a>
+            </div>
+
+            <p className="text-justify text-[13px] leading-[1.475rem] lg:max-w-[43vw] text-neutral-200">
+              The Epimorphy myDNAge® epigenetic age determination test is not intended to be health
+              information or medical data or to be used to screen, diagnose, treat, prevent or assess
+              risk of any disease or condition. The myDNAge® service is an epigenetic age determination
+              test grounded on scientific research that uses marks on numerous places on your DNA,
+              called methylation, which is an epigenetic phenomenon. The myDNAge® service is available
+              for individuals 21 years of age or older. This service has not been cleared or approved
+              by the U.S. Food and Drug Administration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
 }
