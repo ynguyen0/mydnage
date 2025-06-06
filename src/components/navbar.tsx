@@ -13,7 +13,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)   // you’ll use this later for mobile
 
   return (
-    <header className="sticky top-0 z-50">
+    <header className="z-50">
       <nav
         className="
             flex items center justify-between gap-[1.875rem]
