@@ -4,6 +4,7 @@ import { HiOutlineCheckCircle, HiOutlineQuestionMarkCircle } from "react-icons/h
 import { Link } from "react-router-dom";
 import running from "../../assets/running.png";
 import dna from "../../assets/dna.png"
+import Collapsible from "./Collapsible";
 
 export default function Landing() {
     return (
@@ -130,7 +131,25 @@ export default function Landing() {
                 </div>
             </section>
 
+            <section className="mt-15 mb-10 mr-100 max-w-xl mx-auto text-[#2A5987]">
+                <Collapsible title="What is my TrueAge?">
+                    <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
+                </Collapsible>
 
+                <Collapsible title="Why is my TrueAge different from my chronological age?">
+                    <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
+                </Collapsible>
+
+                <Collapsible title="How does DNA methylation affect my TrueAge?">
+                    <p>
+                        Methylation is one type of epigenetic program that lets your genes know when to increase, decrease, or stop expression by adding one or more methyl groups to your DNA. If epigenetics is DNA software, methyl groups are the high-level programming code telling the genome which genes to express. This methylation programming code often changes based on our lifestyle choices and health status.
+                    </p>
+                </Collapsible>
+
+                <Collapsible title="How does MyDNAge measure my pace of aging with DNA methylation?">
+                    <p>TrueAge is calculated by looking at epigenetic modifications, specifically methylation. Epigenetic activity is driven by your environment, including vital lifestyle factors like what you eat, how much you exercise, and the quality of your sleep. These all have the power to affect how quickly your cells, and the organs and tissues they make up, age over time. </p>
+                </Collapsible>
+            </section>
         </main>
     );
 }
