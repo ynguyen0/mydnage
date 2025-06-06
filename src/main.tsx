@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter, Outlet} from 'react-router-dom'
 import Navbar from './components/navbar.tsx'
+import About from './components/about/about.tsx'
 import './index.css'
 
 const DummyPage = ({ label }: {label: string}) => (
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       { path: '/', element: <DummyPage label="Home" />},
       { path: '/myDNAge', element: <DummyPage label="myDNAge" />},
       { path: '/myDogDNAge', element: <DummyPage label="myDogDNAge" />},
-      { path: '/our-science', element: <DummyPage label="Our Science" />},
+      { path: '/our-science', element: <About />},
     ],
   },
 ])

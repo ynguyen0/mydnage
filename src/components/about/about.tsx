@@ -1,7 +1,7 @@
-import "./index.css";
-import woman from "./assets/stylish-woman-in-the-urban-setting-SBI-304380469 1.png";
-import man from "./assets/young-black-man-training-and-playing-with-his-white-labrador-dog-through-the-city-park-SBI-351227918 1.png"
-import left from "./assets/Left Image.png"
+import "../../index.css"; // Import global styles
+import woman from "../../assets/stylish-woman-in-the-urban-setting-SBI-304380469 1.png";
+import man from "../../assets/young-black-man-training-and-playing-with-his-white-labrador-dog-through-the-city-park-SBI-351227918 1.png"
+import left from "../../assets/Left Image.png"
 
 export default function About() {
   return (
