@@ -129,8 +129,6 @@ export default function Landing() {
                     </Link>
                 </div>
             </section>
-
-
         </main>
     );
 }
