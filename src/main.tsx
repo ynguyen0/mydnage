@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter, Outlet} from 'react-router-dom'
 import Navbar from './components/navbar.tsx'
 import './index.css'
-import App from './App.tsx'
 
 const DummyPage = ({ label }: {label: string}) => (
   <div className='p-8 text-lg'>You are on: {label}</div>
