@@ -131,7 +131,7 @@ export default function Landing() {
                 </div>
             </section>
 
-            <section className="mt-15 mb-10 mr-100 max-w-xl mx-auto text-[#2A5987]">
+            <section className="mt-15 mb-10 mr-100 max-w-xl mx-auto txt-semibold text-[#2A5987]">
                 <Collapsible title="What is my TrueAge?">
                     <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
                 </Collapsible>
