@@ -7,6 +7,7 @@ import LogoMark from "./components/logomark/LogoMark.tsx";
 import Product from "./components/products/product.tsx";
 import Landing from "./components/landing/landing.tsx"
 import Footer from "./components/footer/Footer.tsx"
+import Dog from "./components/dog-products/dogproducts.tsx"
 import "./index.css";
 
 const DummyPage = ({ label }: { label: string }) => (
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/home", element: <Landing /> },
       { path: "/myDNAge", element: <Product /> },
-      { path: "/myDogDNAge", element: <DummyPage label="myDogDNAge" /> },
+      { path: "/myDogDNAge", element: <Dog /> },
       { path: "/myDNAge", element: <Product /> },
       { path: "/our-science", element: <About /> },
     ],
