@@ -20,6 +20,7 @@ export default function Navbar() {
             w-full md:w-[47vw]
             md:ml-auto
             px-8 py-5
+            relative z-50
           bg-harmony-500 text-white rounded-bl-[1.625rem]
             shadow-[0_0_20px_rgba(21,136,131,0.20)]
         "

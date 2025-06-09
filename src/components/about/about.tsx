@@ -4,10 +4,48 @@ import man from "../../assets/young-black-man-training-and-playing-with-his-whit
 import left from "../../assets/Left Image.png";
 import { Link } from "react-router-dom";
 import { HiOutlineQuestionMarkCircle } from "react-icons/hi";
+import gradient2 from "../../assets/vector-2.png"
+import line from "../../assets/Vector Line.png"
 
 export default function About() {
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] flex min-h-screen w-full items-center justify-center px-4 py-8 sm:px-6 lg:px-8">
+     <img
+        src={gradient2}
+        alt="Decorative corner graphic"
+        className="
+          absolute -top-15 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[400px] sm:h-[400px]   /* scale up on sm */
+          lg:w-[800px] lg:h-[800px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
+       <img
+        src={gradient2}
+        alt="Decorative corner graphic"
+        className="
+          absolute top-70 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[200px] sm:h-[200px]   /* scale up on sm */
+          lg:w-[650px] lg:h-[650px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
+       <img
+        src={line}
+        alt="Decorative corner graphic"
+        className="
+          absolute top-0 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[200px] sm:h-[200px]   /* scale up on sm */
+          lg:w-[500px] lg:h-[500px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
       {/* CARD ----------------------------------------------------------- */}
       <div className="relative mt-16 sm:mt-20 lg:mt-24 w-full max-w-7xl rounded-2xl bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-6 shadow-2xl text-sm sm:text-base lg:text-lg">
         {/* TITLE  ------------------------------------ */}

@@ -10,7 +10,8 @@ import TrueAgeSection from "./TrueAgeSection.tsx";
 import EpigeneticScienceSection from "./EpigeneticScienceSection.tsx";
 import UnlockTrueAgeSteps from "./UnlockTrueAgeSteps";
 import FAQSection from "./FAQSection";
-import ExploreButton from "./ExploreButton.tsx";
+import gradient2 from "../../assets/vector-2.png"
+import line from "../../assets/Vector Line.png"
 
 export default function Product() {
   const [quantity, setQuantity] = useState(1);
@@ -28,6 +29,42 @@ export default function Product() {
 
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] min-h-screen">
+      <img
+        src={gradient2}
+        alt="Decorative corner graphic"
+        className="
+          absolute -top-15 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[400px] sm:h-[400px]   /* scale up on sm */
+          lg:w-[800px] lg:h-[800px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
+      <img
+        src={gradient2}
+        alt="Decorative corner graphic"
+        className="
+          absolute top-70 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[200px] sm:h-[200px]   /* scale up on sm */
+          lg:w-[650px] lg:h-[650px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
+       <img
+        src={line}
+        alt="Decorative corner graphic"
+        className="
+          absolute top-0 left-0
+          w-[500px] h-[500px]         /* bigger size—adjust as needed */
+          sm:w-[200px] sm:h-[200px]   /* scale up on sm */
+          lg:w-[500px] lg:h-[500px]   /* and md */
+          pointer-events-none
+          z-0                         /* send it behind the main content */
+        "
+      />
       {/* Hero Section - Blue Background */}
       <section className="px-6 sm:px-12 md:px-20 lg:px-28 py-8 md:py-12">
         <div className="mx-auto max-w-7xl">
