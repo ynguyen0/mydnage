@@ -1,6 +1,7 @@
 // src/components/products/FAQSection/FAQItem.tsx
 import { useState } from "react";
 import type { FAQ } from "./faq-data";
+import { FaRegArrowAltCircleDown } from "react-icons/fa"
 
 interface FAQItemProps {
   faq: FAQ;
@@ -20,11 +21,13 @@ export default function FAQItem({ faq }: FAQItemProps) {
         </h3>
         <div className="flex-shrink-0 ml-4">
           <div
-            className={`w-8 h-8 rounded-full bg-white/30 flex items-center justify-center transition-transform ${
+            className={`w-8 h-8 rounded-full flex items-center justify-center transition-transform ${
               isOpen ? "rotate-180" : ""
             }`}
           >
-            <span className="text-[#393D43] text-xl">⊕</span>
+           <FaRegArrowAltCircleDown
+        className="text-[#4F7FA8] text-xl" /* new arrow color */
+      />
           </div>
         </div>
       </button>
