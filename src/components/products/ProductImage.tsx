@@ -3,7 +3,7 @@ import productImage from "../../assets/productImage.png";
 
 export default function ProductImage() {
   return (
-    <div className="relative z-50 bg-white rounded-3xl p-10 md:p-12 shadow-xl flex-shrink-0">
+    <div className="relative z-40 bg-white rounded-3xl p-10 md:p-12 shadow-xl flex-shrink-0">
       <img
         src={productImage}
         alt="MyDNAge Health Test Kit"
