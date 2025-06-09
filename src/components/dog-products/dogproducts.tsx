@@ -66,11 +66,6 @@ export default function Product() {
               <div className="pt-8">
                 <TestResultsInclude />
               </div>
-
-              {/* Explore Button */}
-              <div className="text-center pt-8">
-                <ExploreButton />
-              </div>
             </div>
           </div>
         </div>
