@@ -29,7 +29,7 @@ export default function Product() {
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] min-h-screen">
       {/* Hero Section - Blue Background */}
-      <section className="bg-[#BFDBE8] px-6 sm:px-12 md:px-20 lg:px-28 py-8 md:py-12">
+      <section className="px-6 sm:px-12 md:px-20 lg:px-28 py-8 md:py-12">
         <div className="mx-auto max-w-7xl">
           {/* Two Column Layout */}
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
@@ -77,22 +77,22 @@ export default function Product() {
       </section>
 
       {/* True Age Section - White Background */}
-      <section className="bg-white px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
+      <section className="bg-[#F7F6F2] px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
         <div className="mx-auto max-w-7xl">
           <TrueAgeSection />
         </div>
       </section>
 
       {/* Epigenetic Science Section - Blue Background */}
-      <section className="bg-[#BFDBE8] px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
+      <section className="bg-[#F7F6F2] px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
         <div className="mx-auto max-w-4xl">
           <EpigeneticScienceSection />
         </div>
       </section>
 
-      <section className="bg-[#E5F2F7] px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
+      <section className="bg-[#F7F6F2] px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
         <div className="mx-auto max-w-5xl">
-          <div className="shadow-xl rounded-3xl overflow-hidden">
+          <div className="shadow-xl rounded-3xl">
             <UnlockTrueAgeSteps />
             <FAQSection />
           </div>

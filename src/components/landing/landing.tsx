@@ -131,7 +131,7 @@ export default function Landing() {
                 </div>
             </section>
 
-            <section className="mt-15 mb-10 mr-100 max-w-xl mx-auto txt-semibold text-[#2A5987]">
+            <section className="mt-15 mb-10 ml-265 max-w-xl mx-auto txt-semibold text-[#2A5987]">
                 <Collapsible title="What is my TrueAge?">
                     <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
                 </Collapsible>
@@ -149,6 +149,15 @@ export default function Landing() {
                 <Collapsible title="How does MyDNAge measure my pace of aging with DNA methylation?">
                     <p>TrueAge is calculated by looking at epigenetic modifications, specifically methylation. Epigenetic activity is driven by your environment, including vital lifestyle factors like what you eat, how much you exercise, and the quality of your sleep. These all have the power to affect how quickly your cells, and the organs and tissues they make up, age over time. </p>
                 </Collapsible>
+
+                <Link to="/our-science">
+                        <button
+                            type="button"
+                            className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
+                        >
+                            <span className="text-[#AFD5E7]">Learn More About Our Science</span>
+                        </button>
+                </Link>
             </section>
         </main>
     );

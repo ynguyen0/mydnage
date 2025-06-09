@@ -1,5 +1,6 @@
 // src/components/products/UnlockTrueAgeSteps/StepCard.tsx
 import type { Step } from "./steps-data";
+import logo from "../../../assets/logo.png";
 
 interface StepCardProps {
   step: Step;
@@ -11,23 +12,11 @@ export default function StepCard({ step }: StepCardProps) {
       {/* DNA Icon Placeholder */}
       <div className="mb-4 flex justify-center">
         <div className="w-24 h-24 relative">
-          {/* Placeholder for DNA flower icon - replace with actual icon */}
-          <svg viewBox="0 0 100 100" className="w-full h-full">
-            <g fill="#B8D7E7">
-              <circle cx="30" cy="30" r="20" />
-              <circle cx="70" cy="30" r="20" />
-              <circle cx="30" cy="70" r="20" />
-              <circle cx="70" cy="70" r="20" />
-              <rect
-                x="40"
-                y="40"
-                width="20"
-                height="20"
-                rx="10"
-                fill="#4F7FA8"
-              />
-            </g>
-          </svg>
+          <img
+            src={logo}
+            alt="True age logo"
+            className=" object-cover flex-shrink-0 "
+          />
         </div>
       </div>
 

@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import smiling from "../../assets/smiling-lady.png";
+import dna from "../../assets/age stat.png"
+
 // src/components/products/TrueAgeSection.tsx
 export default function TrueAgeSection() {
   return (
@@ -8,7 +12,9 @@ export default function TrueAgeSection() {
         Longer, Better
       </h2>
 
+
       <div className="grid lg:grid-cols-2 gap-12 items-start">
+        {/* Left column */}
         <div className="space-y-6">
           <p className="text-lg text-[#393D43]/70 leading-relaxed">
             Chronological age is the number of years you have been alive,
@@ -20,69 +26,66 @@ export default function TrueAgeSection() {
             or younger than your actual age, and this impacts how well your body
             functions.
           </p>
-          <p className="text-lg text-[#393D43]/70 leading-relaxed">
+          <p className="text-lg text-[#393D43]/70 font-semibold leading-relaxed">
             MyDNAge doesn't just measure aging, but to help you optimize and
             improve your aging trajectory for years to come.
           </p>
         </div>
 
-        {/* Right Column - Image and Text */}
-        <div>
-          {/* Woman Image with Age Indicators */}
-          <div className="relative rounded-full overflow-hidden bg-gray-100 aspect-square max-w-[500px] ml-auto mb-8">
-            {/* Placeholder - replace with actual image */}
+        {/* Right column: image + text */}
+        <div className="flex flex-col items-end space-y-6">
+          {/* 1) Image */}
+          <div
+            className="
+        relative rounded-full overflow-hidden
+        bg-gray-100 aspect-square max-w-[500px]
+      "
+          >
             <img
-              src="/src/assets/woman-placeholder.jpg"
+              src={smiling}
               alt="Woman smiling"
               className="w-full h-full object-cover"
             />
-
-            {/* Age Indicators */}
-            <div className="absolute top-1/2 left-8 transform -translate-y-1/2">
-              <div className="bg-[#393D43] text-white rounded-lg px-4 py-2 shadow-lg">
-                <p className="text-xs uppercase tracking-wide mb-1">
-                  Chronological Age
-                </p>
-                <p className="text-3xl font-bold">36</p>
-              </div>
-            </div>
-
-            <div className="absolute bottom-1/3 right-8">
-              <div className="bg-white rounded-lg px-4 py-2 shadow-lg">
-                <p className="text-xs uppercase tracking-wide mb-1 text-gray-600">
-                  Biological Age
-                </p>
-                <p className="text-3xl font-bold text-[#393D43]">42</p>
-              </div>
-            </div>
-
-            {/* DNA Icon */}
-            <div className="absolute top-1/4 right-12">
-              <div className="w-12 h-12 bg-[#4F7FA8] rounded-full flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-white"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-                </svg>
-              </div>
-            </div>
+             <img
+  src={dna}
+  alt="DNA overlay"
+  className="
+    absolute inset-0
+    w-full h-full 
+    translate-y-18
+    -translate-x-10
+    scale-110
+    object-contain
+    pointer-events-none
+  "
+/>
           </div>
 
-          {/* Bottom Text - Below and to the left of image */}
-          <div className="max-w-sm">
-            <p className="text-base text-[#4F7FA8] leading-relaxed mb-4">
+          {/* 2) “learning what is…” text */}
+          <div className="max-w-sm self-start text-left pt-8">
+            <p className="text-base font-semibold text-[#4F7FA8] leading-relaxed mb-4">
               Learning what is happening in your body at a DNA level allows you
               to unlock potential health concerns at the source and make more
               informed lifestyle choices to increase your health longevity.
             </p>
-            <button className="bg-[#393D43] text-white px-6 py-3 rounded-full font-medium hover:bg-[#393D43]/90 transition-colors">
-              Our Science
-            </button>
+            <Link to="/our-science">
+              <button
+                type="button"
+                className="
+            mt-3 inline-flex items-center gap-3
+            rounded-full bg-[#393D43] px-6 py-3
+            text-lg font-semibold text-white shadow-md
+            transition-colors hover:bg-[#2e3237]
+            focus:outline-none
+          "
+              >
+                <span className="text-[#AFD5E7]">Our Science</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
+
     </div>
   );
 }
