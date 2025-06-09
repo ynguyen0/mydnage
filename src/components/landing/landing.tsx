@@ -9,18 +9,19 @@ import Collapsible from "./Collapsible";
 export default function Landing() {
     return (
         <main>
-            <section className="landing">
-                <div className="landing__text text-[#393D43]">
-                    <h1 className="mt-12 text-2xl leading-snug text-[#393D43] lg:text-5xl">Changing the way you age to live <b>healthier, longer, and better</b></h1>
-                </div>
+            <section className="landing flex flex-col items-center gap-6 md:flex-row md:items-start md:gap-0">
+    <div className="landing__text text-[#393D43] flex-1">
+        <h1 className="mt-12 text-2xl leading-snug text-[#393D43] lg:text-5xl">
+            Changing the way you age to live <b>healthier, longer, and better</b>
+        </h1>
+    </div>
 
-
-                <img
-                    src={product}
-                    alt="MyDNAge product"
-                    className="landing__image ml-[60px] h-[340px] w-[340px] md:h-85 md:w-85"
-                />
-            </section>
+    <img
+        src={product}
+        alt="MyDNAge product"
+        className="landing__image h-[200px] w-[200px] sm:h-[250px] sm:w-[250px] md:ml-[60px] md:h-[340px] md:w-[340px] lg:h-85 lg:w-85 flex-shrink-0"
+    />
+</section>
 
 
             <section className="buttons flex flex-col gap-4">
@@ -108,7 +109,7 @@ export default function Landing() {
                     <img
                         src={dna}
                         alt="Blue DNA helix"
-                        className="absolute -top-10 -right-10 w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] lg:w-[150px] lg:h-[150px] rounded-full object-cover shadow-md"
+                        className="absolute -top-15 -right-15 w-[100px] h-[100px] sm:w-[120px] sm:h-[120px] md:w-[140px] md:h-[140px] lg:w-[150px] lg:h-[150px] rounded-full object-cover shadow-md"
                     />
                 </div>
 
@@ -131,7 +132,7 @@ export default function Landing() {
                 </div>
             </section>
 
-            <section className="mt-15 mb-10 ml-265 max-w-xl mx-auto txt-semibold text-[#2A5987]">
+             <section className="mt-15 mb-10 mx-auto px-4 lg:px-0 lg:ml-[1065px] max-w-xl mx-4 txt-semibold text-[#2A5987]">
                 <Collapsible title="What is my TrueAge?">
                     <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
                 </Collapsible>
@@ -151,12 +152,12 @@ export default function Landing() {
                 </Collapsible>
 
                 <Link to="/our-science">
-                        <button
-                            type="button"
-                            className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
-                        >
-                            <span className="text-[#AFD5E7]">Learn More About Our Science</span>
-                        </button>
+                    <button
+                        type="button"
+                        className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
+                    >
+                        <span className="text-[#AFD5E7]">Learn More About Our Science</span>
+                    </button>
                 </Link>
             </section>
         </main>
