@@ -120,7 +120,7 @@ export default function Landing() {
                 </button>
 
 
-                <Link to="/myDNAge">
+                <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="inline-flex items-center gap-3
@@ -147,7 +147,7 @@ export default function Landing() {
                     — Neal Kitchen, Ph.D., chief operating officer at LIV
                 </p>
 
-                <Link to="/myDNAge">
+                <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
@@ -180,7 +180,7 @@ export default function Landing() {
                         <span className="text-[#2A5987] font-semibold">MyDNAge</span> tests provide a snapshot of your health and biological age on a cellular level, giving you the most accurate, in-depth information about your body on the market.
                     </p>
 
-                    <Link to="/myDNAge">
+                    <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                         <button
                             type="button"
                             className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
@@ -210,7 +210,7 @@ export default function Landing() {
                     <p>TrueAge is calculated by looking at epigenetic modifications, specifically methylation. Epigenetic activity is driven by your environment, including vital lifestyle factors like what you eat, how much you exercise, and the quality of your sleep. These all have the power to affect how quickly your cells, and the organs and tissues they make up, age over time. </p>
                 </Collapsible>
 
-                <Link to="/our-science">
+                <Link to="/our-science" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"

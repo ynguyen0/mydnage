@@ -68,7 +68,7 @@ export default function TrueAgeSection() {
               to unlock potential health concerns at the source and make more
               informed lifestyle choices to increase your health longevity.
             </p>
-            <Link to="/our-science">
+            <Link to="/our-science" onClick={() => window.scrollTo(0, 0)}>
               <button
                 type="button"
                 className="

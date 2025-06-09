@@ -219,7 +219,7 @@ export default function About() {
             that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.
           </p>
 
-          <Link to="/myDNAge">
+          <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)} >
             <button
               type="button"
               className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
