@@ -44,6 +44,7 @@ export default function Navbar() {
                    bg-harmony-500 text-white
                    rounded-bl-[1.625rem]
                    shadow-[0_0_20px_rgba(21,136,131,0.20)]"
+
       >
         <ul className="flex items-center gap-6">
           {NAV.map(({ label, path }) => (

@@ -9,7 +9,7 @@ export default function LogoMark({ className = '', ...rest }: LogoMarkProps) {
             src={LogoImg}
             alt="myDNAge by Liv"
             className={`
-                w-[17.875rem] h-[6.8125rem] aspect-[286/109]
+                w-[17.875rem] h-[6.8125rem] aspect-[286/109] z-50
                 select-none pointer-events-none
                 ${className}
           `}

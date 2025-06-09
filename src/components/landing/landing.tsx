@@ -5,23 +5,82 @@ import { Link } from "react-router-dom";
 import running from "../../assets/running.png";
 import dna from "../../assets/dna.png"
 import Collapsible from "./Collapsible";
+import blue from "../../assets/blue.png"
+import blueline from "../../assets/blue-line.png"
+import white from "../../assets/white.png"
+import line from "../../assets/vector-line.png"
 
 export default function Landing() {
     return (
         <main>
-            <section className="landing flex flex-col items-center gap-6 md:flex-row md:items-start md:gap-0">
-    <div className="landing__text text-[#393D43] flex-1">
-        <h1 className="mt-12 text-2xl leading-snug text-[#393D43] lg:text-5xl">
-            Changing the way you age to live <b>healthier, longer, and better</b>
-        </h1>
-    </div>
 
-    <img
-        src={product}
-        alt="MyDNAge product"
-        className="landing__image h-[200px] w-[200px] sm:h-[250px] sm:w-[250px] md:ml-[60px] md:h-[340px] md:w-[340px] lg:h-85 lg:w-85 flex-shrink-0"
-    />
-</section>
+            <img
+                src={line}
+                alt="Decorative corner graphic"
+                className="
+          absolute top-21 left-305
+          z-50
+          w-[700px] h-[700px]        
+          sm:w-[400px] sm:h-[400px]  
+          lg:w-[800px] lg:h-[700px]  
+          pointer-events-none
+          z-0                         
+        "
+            />
+
+            <img
+                src={blue}
+                alt="Decorative corner graphic"
+                className="
+          absolute top-20 right-0
+          w-[500px] h-[500px]        
+          sm:w-[400px] sm:h-[400px]   
+          lg:w-[1100px] lg:h-[800px]   
+          pointer-events-none
+          z-0                        
+        "
+            />
+            <img
+                src={white}
+                alt="Decorative corner graphic"
+                className="
+    absolute top-[100px] right-[0px]
+    w-[800px] h-[700px]         
+    sm:w-[600px] sm:h-[600px]   
+    lg:w-[1010px] lg:h-[700px]  
+    pointer-events-none
+    z-0                         
+  "
+            />
+
+            
+
+            <img
+                src={blueline}
+                alt="Decorative corner graphic"
+                className="
+          absolute top-30 right-100
+          w-[500px] h-[500px]        
+          sm:w-[400px] sm:h-[400px]  
+          lg:w-[600px] lg:h-[600px]  
+          pointer-events-none
+          z-0                         
+        "
+            />
+
+            <section className="landing flex flex-col items-center gap-6 md:flex-row md:items-start md:gap-0">
+                <div className="landing__text text-[#393D43] flex-1">
+                    <h1 className="mt-12 text-2xl leading-snug text-[#393D43] lg:text-5xl">
+                        Changing the way you age to live <b>healthier, longer, and better</b>
+                    </h1>
+                </div>
+
+                <img
+                    src={product}
+                    alt="MyDNAge product"
+                    className="landing__image relative z-50 h-[200px] w-[200px] sm:h-[250px] sm:w-[250px] md:ml-[60px] md:h-[340px] md:w-[340px] lg:h-85 lg:w-85 flex-shrink-0"
+                />
+            </section>
 
 
             <section className="buttons flex flex-col gap-4">
@@ -61,7 +120,7 @@ export default function Landing() {
                 </button>
 
 
-                <Link to="/myDNAge">
+                <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="inline-flex items-center gap-3
@@ -88,7 +147,7 @@ export default function Landing() {
                     — Neal Kitchen, Ph.D., chief operating officer at LIV
                 </p>
 
-                <Link to="/myDNAge">
+                <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
@@ -121,7 +180,7 @@ export default function Landing() {
                         <span className="text-[#2A5987] font-semibold">MyDNAge</span> tests provide a snapshot of your health and biological age on a cellular level, giving you the most accurate, in-depth information about your body on the market.
                     </p>
 
-                    <Link to="/myDNAge">
+                    <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
                         <button
                             type="button"
                             className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
@@ -132,7 +191,7 @@ export default function Landing() {
                 </div>
             </section>
 
-             <section className="mt-15 mb-10 mx-auto px-4 lg:px-0 lg:ml-[1065px] max-w-xl mx-4 txt-semibold text-[#2A5987]">
+            <section className="mt-15 mb-10 mx-auto px-4 lg:px-0 lg:ml-[1065px] max-w-xl mx-4 txt-semibold text-[#2A5987]">
                 <Collapsible title="What is my TrueAge?">
                     <p>While a person's chronological age can tell the world how many years a person has walked upon the Earth, it's an individual's TrueAge, or biological age, that measures their body's unique pace of aging. It's driven by measurable molecular signals that can tell you how well your cells are functioning.</p>
                 </Collapsible>
@@ -151,7 +210,7 @@ export default function Landing() {
                     <p>TrueAge is calculated by looking at epigenetic modifications, specifically methylation. Epigenetic activity is driven by your environment, including vital lifestyle factors like what you eat, how much you exercise, and the quality of your sleep. These all have the power to affect how quickly your cells, and the organs and tissues they make up, age over time. </p>
                 </Collapsible>
 
-                <Link to="/our-science">
+                <Link to="/our-science" onClick={() => window.scrollTo(0, 0)}>
                     <button
                         type="button"
                         className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#393D43] px-6 py-3 text-lg font-semibold text-white shadow-md transition-colors hover:bg-[#2e3237] focus:outline-none"
