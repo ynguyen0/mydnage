@@ -15,14 +15,14 @@ export interface Step {
     },
     {
       number: "02",
-      title: "Collect your DNA",
-      description: "Follow the in-box instructions to collect your DNA sample at home. Then, send it back to us using the prepaid mailing label",
+      title: "Collect your dog's DNA",
+      description: "Follow the in-box instructions to collect your dog's DNA sample at home. Then, send it back to us using the prepaid mailing label",
       icon: "dna"
     },
     {
       number: "03",
-      title: "Reveal your TrueAge",
-      description: "Your test results and personalized report will be ready in 4-6 weeks and delivered via email",
+      title: "Reveal your dog's TrueAge",
+      description: "Your dog's results and personalized report will be ready in 4-6 weeks and delivered via email",
       icon: "report"
     }
   ];

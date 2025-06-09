@@ -89,7 +89,6 @@ export default function Product() {
         <div className="mx-auto max-w-5xl">
           <div className="shadow-xl rounded-3xl">
             <UnlockTrueAgeSteps />
-            <FAQSection />
           </div>
         </div>
       </section>

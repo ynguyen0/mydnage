@@ -4,6 +4,7 @@ import man from "../../assets/young-black-man-training-and-playing-with-his-whit
 import left from "../../assets/Left Image.png";
 import { Link } from "react-router-dom";
 import { HiOutlineQuestionMarkCircle } from "react-icons/hi";
+import bgTopLeft from "../../assets/page_svgs/about.svg?react";
 
 export default function About() {
   return (
