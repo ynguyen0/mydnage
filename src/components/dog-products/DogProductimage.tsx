@@ -3,7 +3,7 @@ import dogdna from "../../assets/dog-dna.png";
 
 export default function DogProductImage() {
   return (
-    <div className="relative z-50 bg-white rounded-3xl p-10 md:p-12 shadow-xl flex-shrink-0">
+    <div className="relative z-40 bg-white rounded-3xl p-10 md:p-12 shadow-xl flex-shrink-0">
       <img
         src={dogdna}
         alt="My Dog DNAge Health Test Kit"
