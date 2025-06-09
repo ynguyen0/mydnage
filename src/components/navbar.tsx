@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="relative z-50">
 
       {/* ─── Mobile top-right bar ─── */}
-      <div className="flex justify-end px-4 py-3 md:hidden">
+      <div className="flex justify-end md:hidden">
         <div className="inline-flex items-center gap-2
                         bg-harmony-500 text-white
                         rounded-bl-2xl
