@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { RouterProvider, createBrowserRouter, Outlet} from 'react-router-dom'
@@ -7,16 +8,26 @@ import Landing from './components/landing/landing.tsx'
 import LogoMark from './components/logomark/LogoMark.tsx'
 import Footer from './components/footer/Footer.tsx'
 import './index.css'
+=======
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
+import Navbar from "./components/navbar.tsx";
+import About from "./components/about/about.tsx";
+import LogoMark from "./components/logomark/LogoMark.tsx";
+import Product from "./components/products/product.tsx";
+import "./index.css";
+>>>>>>> 6496765 (product pages)
 
-const DummyPage = ({ label }: {label: string}) => (
-  <div className='p-8 text-lg'>You are on: {label}</div>
+const DummyPage = ({ label }: { label: string }) => (
+  <div className="p-8 text-lg">You are on: {label}</div>
 );
 
 const AppLayout = () => (
   <div className="relative">
     <LogoMark className="absolute left-8 top-8 md:left-20 md:top-20" />
     <Navbar />
-    <div className='pt-20'>
+    <div className="pt-20">
       <Outlet />
     </div>
     <Footer />
@@ -25,19 +36,27 @@ const AppLayout = () => (
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <AppLayout />,
     children: [
+<<<<<<< HEAD
       { path: '/home', element: <Landing />},
       { path: '/myDNAge', element: <DummyPage label="myDNAge" />},
       { path: '/myDogDNAge', element: <DummyPage label="myDogDNAge" />},
       { path: '/our-science', element: <About />},
+=======
+      { path: "/", element: <DummyPage label="Home" /> },
+      { path: "/myDNAge", element: <Product /> },
+      { path: "/myDogDNAge", element: <DummyPage label="myDogDNAge" /> },
+      { path: "/myDNAge", element: <Product /> },
+      { path: "/our-science", element: <About /> },
+>>>>>>> 6496765 (product pages)
     ],
   },
-])
+]);
 
-createRoot(document.getElementById('root')!).render(
+createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+  </StrictMode>
 );
