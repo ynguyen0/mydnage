@@ -1,27 +1,29 @@
-import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import { Menu, X } from 'lucide-react';
-import CartImg from '/src/assets/Cart.png'
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { Menu, X } from "lucide-react";
+import CartImg from "/src/assets/Cart.png";
 
 const NAV = [
-  { label: 'Home', path: '/home' },
-  { label: 'myDNAge', path: '/myDNAge' },
-  { label: 'myDogDNAge', path: '/myDogDNAge' },
-  { label: 'Our Science', path: '/our-science' },
-]
+  { label: "Home", path: "/home" },
+  { label: "myDNAge", path: "/myDNAge" },
+  { label: "myDogDNAge", path: "/myDogDNAge" },
+  { label: "Our Science", path: "/our-science" },
+  { label: "Clinic Inquiry", path: "/clinic-inquiry" },
+];
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="relative z-50">
-
       {/* ─── Mobile top-right bar ─── */}
       <div className="flex justify-end md:hidden">
-        <div className="inline-flex items-center gap-2
+        <div
+          className="inline-flex items-center gap-2
                         bg-harmony-500 text-white
                         rounded-bl-2xl
-                        shadow-[0_0_20px_rgba(21,136,131,0.20)]">
+                        shadow-[0_0_20px_rgba(21,136,131,0.20)]"
+        >
           <button
             onClick={() => setOpen(true)}
             className="p-2"
@@ -39,24 +41,23 @@ export default function Navbar() {
       {/* ─── Desktop bar (md+) ─── */}
       <nav
         className="hidden md:flex items-center justify-between
-                   w-[47vw] ml-auto
-                   px-8 py-5
+                   w-fit ml-auto
+                   pl-8 pr-4 py-5
                    bg-harmony-500 text-white
                    rounded-bl-[1.625rem]
                    shadow-[0_0_20px_rgba(21,136,131,0.20)]"
-
       >
-        <ul className="flex items-center gap-6">
+        <ul className="flex items-center gap-6 mr-6">
           {NAV.map(({ label, path }) => (
             <li key={path}>
               <NavLink
                 to={path}
                 end
                 className={({ isActive }) =>
-                  `font-semibold transition-colors ${
+                  `font-semibold transition-colors whitespace-nowrap ${
                     isActive
-                      ? 'text-fresh-500'
-                      : 'text-white hover:text-fresh-500'
+                      ? "text-fresh-500"
+                      : "text-white hover:text-fresh-500"
                   }`
                 }
               >
@@ -68,9 +69,9 @@ export default function Navbar() {
 
         <button
           aria-label="View cart"
-          className="flex h-12 w-12 items-center justify-center rounded-full hover:bg-fresh-500"
+          className="flex h-12 w-12 min-w-[48px] items-center justify-center rounded-full hover:bg-fresh-500 flex-shrink-0"
         >
-          <img src={CartImg} alt="Cart" className="h-12 w-12" />
+          <img src={CartImg} alt="Cart" className="h-8 w-8" />
         </button>
       </nav>
 
@@ -80,7 +81,7 @@ export default function Navbar() {
           fixed inset-y-0 right-0 z-40
           w-3/4 max-w-xs
           bg-harmony-500
-          transform ${open ? 'translate-x-0' : 'translate-x-full'}
+          transform ${open ? "translate-x-0" : "translate-x-full"}
           transition-transform duration-300 ease-in-out
           md:hidden
         `}
@@ -110,8 +111,8 @@ export default function Navbar() {
                 className={({ isActive }) =>
                   `block text-lg font-semibold ${
                     isActive
-                      ? 'text-fresh-500'
-                      : 'text-white hover:text-fresh-300'
+                      ? "text-fresh-500"
+                      : "text-white hover:text-fresh-300"
                   }`
                 }
               >

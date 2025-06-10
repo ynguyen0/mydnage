@@ -5,9 +5,10 @@ import Navbar from "./components/navbar.tsx";
 import About from "./components/about/about.tsx";
 import LogoMark from "./components/logomark/LogoMark.tsx";
 import Product from "./components/products/product.tsx";
-import Landing from "./components/landing/landing.tsx"
-import Footer from "./components/footer/Footer.tsx"
-import Dog from "./components/dog-products/dogproducts.tsx"
+import Landing from "./components/landing/landing.tsx";
+import Footer from "./components/footer/Footer.tsx";
+import Dog from "./components/dog-products/dogproducts.tsx";
+import ClinicInquiries from "./components/clinicinquiry/clinicinquiry.tsx";
 import "./index.css";
 
 const DummyPage = ({ label }: { label: string }) => (
@@ -31,11 +32,11 @@ const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { path: "/", element: <Landing /> },
-       { path: "/home", element: <Landing /> },
+      { path: "/home", element: <Landing /> },
       { path: "/myDNAge", element: <Product /> },
       { path: "/myDogDNAge", element: <Dog /> },
-      { path: "/myDNAge", element: <Product /> },
       { path: "/our-science", element: <About /> },
+      { path: "/clinic-inquiry", element: <ClinicInquiries /> },
     ],
   },
 ]);
