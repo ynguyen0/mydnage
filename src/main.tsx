@@ -1,3 +1,4 @@
+// src/main.tsx
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider, createBrowserRouter, Outlet } from "react-router-dom";
@@ -9,6 +10,7 @@ import Landing from "./components/landing/landing.tsx";
 import Footer from "./components/footer/Footer.tsx";
 import Dog from "./components/dog-products/dogproducts.tsx";
 import ClinicInquiries from "./components/clinicinquiry/clinicinquiry.tsx";
+import HowItWorks from "./components/howitworks/howitworks.tsx";
 import "./index.css";
 
 const DummyPage = ({ label }: { label: string }) => (
@@ -33,6 +35,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Landing /> },
       { path: "/home", element: <Landing /> },
+      { path: "/how-it-works", element: <HowItWorks /> },
       { path: "/myDNAge", element: <Product /> },
       { path: "/myDogDNAge", element: <Dog /> },
       { path: "/our-science", element: <About /> },

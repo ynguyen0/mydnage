@@ -1,3 +1,4 @@
+// src/components/navbar.tsx
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -5,6 +6,7 @@ import CartImg from "/src/assets/Cart.png";
 
 const NAV = [
   { label: "Home", path: "/home" },
+  { label: "How It Works", path: "/how-it-works" },
   { label: "myDNAge", path: "/myDNAge" },
   { label: "myDogDNAge", path: "/myDogDNAge" },
   { label: "Our Science", path: "/our-science" },
