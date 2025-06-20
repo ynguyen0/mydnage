@@ -84,7 +84,8 @@ export default function Landing() {
         {/* Hero section with absolute positioning for desktop, stacked for mobile */}
         <section className="relative min-h-[400px] sm:min-h-[500px] lg:min-h-[700px] mb-12 md:mb-20">
           {/* Text content */}
-          <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-8 md:py-16 lg:absolute lg:top-[200px] lg:left-[200px] xl:left-[400px] lg:max-w-[600px]">
+          <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-8 md:py-16 lg:absolute lg:top-[200px] lg:left-[80px] xl:left-[120px] lg:max-w-[600px]">
+            {" "}
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-[#393D43] text-center lg:text-left">
               Changing the way you age to live{" "}
               <b>healthier, longer, and better</b>
@@ -92,7 +93,8 @@ export default function Landing() {
           </div>
 
           {/* Product image - absolute on desktop, centered on mobile */}
-          <div className="flex justify-center lg:absolute lg:top-[150px] lg:left-[70%] xl:top-[200px] xl:left-[65%] 2xl:left-[60%] px-6 lg:px-0">
+          <div className="flex justify-center lg:absolute lg:top-[150px] lg:left-[50%] xl:top-[200px] xl:left-[48%] 2xl:left-[45%] px-6 lg:px-0">
+            {" "}
             <img
               src={product}
               alt="MyDNAge product"
@@ -102,7 +104,8 @@ export default function Landing() {
         </section>
 
         {/* Buttons section */}
-        <section className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 flex flex-col gap-4 mb-16 md:mb-24 max-w-4xl mx-auto lg:mx-0 lg:ml-[200px] xl:ml-[100px]">
+        <section className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 flex flex-col gap-4 mb-16 md:mb-24 max-w-4xl mx-auto lg:mx-0 lg:ml-[80px] xl:ml-[120px]">
+          {" "}
           <button
             type="button"
             className="inline-flex items-center gap-3 justify-center sm:justify-start
@@ -115,7 +118,6 @@ export default function Landing() {
               Scientifically proven, at-home DNA tests to reveal your TrueAge
             </span>
           </button>
-
           <button
             type="button"
             className="inline-flex items-center gap-3 justify-center sm:justify-start
@@ -128,7 +130,6 @@ export default function Landing() {
               Evidence-based reports that capture your health snapshot
             </span>
           </button>
-
           <button
             type="button"
             className="inline-flex items-center gap-3 justify-center sm:justify-start
@@ -141,7 +142,6 @@ export default function Landing() {
               Actionable and personalized plans to extend your healthspan
             </span>
           </button>
-
           <Link to="/myDNAge" onClick={() => window.scrollTo(0, 0)}>
             <button
               type="button"
