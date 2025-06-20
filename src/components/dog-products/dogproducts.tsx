@@ -9,9 +9,8 @@ import TestResultsInclude from "./TestResultsInclude.tsx";
 import TrueAgeSection from "./TrueAgeSection.tsx";
 import EpigeneticScienceSection from "./EpigeneticScienceSection.tsx";
 import UnlockTrueAgeSteps from "./UnlockTrueAgeSteps";
-import FAQSection from "./FAQSection";
-import gradient2 from "../../assets/vector-2.png"
-import line from "../../assets/Vector Line.png"
+import gradient2 from "../../assets/vector-2.png";
+import line from "../../assets/Vector Line.png";
 
 export default function Product() {
   const [quantity, setQuantity] = useState(1);
@@ -53,7 +52,7 @@ export default function Product() {
           z-0                         /* send it behind the main content */
         "
       />
-       <img
+      <img
         src={line}
         alt="Decorative corner graphic"
         className="
