@@ -13,10 +13,6 @@ import ClinicInquiries from "./components/clinicinquiry/clinicinquiry.tsx";
 import HowItWorks from "./components/howitworks/howitworks.tsx";
 import "./index.css";
 
-const DummyPage = ({ label }: { label: string }) => (
-  <div className="p-8 text-lg">You are on: {label}</div>
-);
-
 const AppLayout = () => (
   <div className="relative">
     <LogoMark className="absolute left-8 top-8 md:left-20 md:top-20" />
