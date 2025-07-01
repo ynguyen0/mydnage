@@ -1,33 +1,16 @@
-// src/components/products/product.tsx (update the quantity section)
-import { useState } from "react";
+// src/components/products/product.tsx
 import ProductHero from "./ProductHero";
 import ProductImage from "./ProductImage";
-import ProductCard from "./ProductCard";
-import QuantitySelector from "./QuantitySelector";
-import AddToCartButton from "./AddToCartButton";
 import TestResultsInclude from "./TestResultsInclude";
 import TrueAgeSection from "./TrueAgeSection";
 import EpigeneticScienceSection from "./EpigeneticScienceSection";
 import UnlockTrueAgeSteps from "./UnlockTrueAgeSteps";
 import FAQSection from "./FAQSection";
 import ExploreButton from "./ExploreButton";
-import gradient2 from "../../assets/vector-2.png"
-import line from "../../assets/Vector Line.png"
+import gradient2 from "../../assets/vector-2.png";
+import line from "../../assets/Vector Line.png";
 
 export default function Product() {
-  const [quantity, setQuantity] = useState(1);
-
-  const handleQuantityChange = (newQuantity: number) => {
-    if (newQuantity >= 1) {
-      setQuantity(newQuantity);
-    }
-  };
-
-  const handleAddToCart = () => {
-    // Add to cart logic here
-    console.log(`Adding ${quantity} items to cart`);
-  };
-
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] min-h-screen">
       <img
@@ -54,7 +37,7 @@ export default function Product() {
           z-0                         /* send it behind the main content */
         "
       />
-       <img
+      <img
         src={line}
         alt="Decorative corner graphic"
         className="
@@ -78,30 +61,11 @@ export default function Product() {
 
             {/* Right Column - All Other Content */}
             <div className="flex-1 w-full space-y-8">
-              {/* Product Hero - Moved here */}
+              {/* Product Hero */}
               <ProductHero />
 
-              {/* Product Card */}
-              <ProductCard price={299} />
-
-              {/* Quantity and Cart Section */}
-              <div className="flex justify-end">
-                <div className="flex items-end gap-4">
-                  <div>
-                    <p className="text-lg font-medium text-[#393D43] mb-2 pl-10">
-                      Quantity
-                    </p>
-                    <QuantitySelector
-                      quantity={quantity}
-                      onChange={handleQuantityChange}
-                    />
-                  </div>
-                  <AddToCartButton onClick={handleAddToCart} />
-                </div>
-              </div>
-
-              {/* Test Results Section */}
-              <div className="pt-8">
+              {/* Test Results Section - Moved up to fill the gap */}
+              <div>
                 <TestResultsInclude />
               </div>
 

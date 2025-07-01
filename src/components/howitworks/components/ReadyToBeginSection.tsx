@@ -9,9 +9,16 @@ export default function ReadyToBeginSection() {
         If you've received your kit or are just curious about next steps, you're
         in the right place.
       </p>
-      <button className="bg-[#393D43] text-white px-8 py-3 rounded-full font-semibold text-lg hover:bg-[#2e3237] transition-colors">
-        Activate Your Kit
-      </button>
+      <div className="relative z-20">
+        <a
+          href="https://www.mydnage.com/auth/login?redirect_url=/activate"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-[#393D43] text-[#AFD5E7] px-8 py-3 rounded-full font-semibold text-lg hover:bg-[#2e3237] transition-colors cursor-pointer"
+        >
+          Activate Your Kit
+        </a>
+      </div>
     </div>
   );
 }

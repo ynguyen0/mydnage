@@ -1,10 +1,6 @@
-// src/components/products/product.tsx (update the quantity section)
-import { useState } from "react";
+// src/components/dog-products/dogproducts.tsx
 import DogProductHero from "./DogProductHero.tsx";
 import DogProductImage from "./DogProductimage.tsx";
-import DogProductCard from "./DogProductCard";
-import QuantitySelector from "./QuantitySelector.tsx";
-import AddToCartButton from "./AddToCartButton.tsx";
 import TestResultsInclude from "./TestResultsInclude.tsx";
 import TrueAgeSection from "./TrueAgeSection.tsx";
 import EpigeneticScienceSection from "./EpigeneticScienceSection.tsx";
@@ -13,19 +9,6 @@ import gradient2 from "../../assets/vector-2.png";
 import line from "../../assets/Vector Line.png";
 
 export default function Product() {
-  const [quantity, setQuantity] = useState(1);
-
-  const handleQuantityChange = (newQuantity: number) => {
-    if (newQuantity >= 1) {
-      setQuantity(newQuantity);
-    }
-  };
-
-  const handleAddToCart = () => {
-    // Add to cart logic here
-    console.log(`Adding ${quantity} items to cart`);
-  };
-
   return (
     <main className="font-['Poppins',_ui-sans-serif,_system-ui] min-h-screen">
       <img
@@ -76,30 +59,11 @@ export default function Product() {
 
             {/* Right Column - All Other Content */}
             <div className="flex-1 w-full space-y-8">
-              {/* Product Hero - Moved here */}
+              {/* Product Hero */}
               <DogProductHero />
 
-              {/* Product Card */}
-              <DogProductCard price={299} />
-
-              {/* Quantity and Cart Section */}
-              <div className="flex justify-end">
-                <div className="flex items-end gap-4">
-                  <div>
-                    <p className="text-lg font-medium text-[#393D43] mb-2 pl-10">
-                      Quantity
-                    </p>
-                    <QuantitySelector
-                      quantity={quantity}
-                      onChange={handleQuantityChange}
-                    />
-                  </div>
-                  <AddToCartButton onClick={handleAddToCart} />
-                </div>
-              </div>
-
-              {/* Test Results Section */}
-              <div className="pt-8">
+              {/* Test Results Section - Moved up to fill the gap */}
+              <div>
                 <TestResultsInclude />
               </div>
             </div>

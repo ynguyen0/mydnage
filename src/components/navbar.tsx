@@ -2,15 +2,13 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
-import CartImg from "/src/assets/Cart.png";
 
 const NAV = [
   { label: "Home", path: "/home" },
-  { label: "How It Works", path: "/how-it-works" },
   { label: "myDNAge", path: "/myDNAge" },
   { label: "myDogDNAge", path: "/myDogDNAge" },
+  { label: "How It Works", path: "/how-it-works" },
   { label: "Our Science", path: "/our-science" },
-  { label: "Clinic Inquiry", path: "/clinic-inquiry" },
 ];
 
 export default function Navbar() {
@@ -33,10 +31,6 @@ export default function Navbar() {
           >
             <Menu size={24} />
           </button>
-
-          <button className="p-2" aria-label="View cart">
-            <img src={CartImg} alt="Cart" className="h-6 w-6" />
-          </button>
         </div>
       </div>
 
@@ -44,12 +38,12 @@ export default function Navbar() {
       <nav
         className="hidden md:flex items-center justify-between
                    w-fit ml-auto
-                   pl-8 pr-4 py-5
+                   pl-8 pr-6 py-5
                    bg-harmony-500 text-white
                    rounded-bl-[1.625rem]
                    shadow-[0_0_20px_rgba(21,136,131,0.20)]"
       >
-        <ul className="flex items-center gap-6 mr-6">
+        <ul className="flex items-center gap-6">
           {NAV.map(({ label, path }) => (
             <li key={path}>
               <NavLink
@@ -68,13 +62,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-
-        <button
-          aria-label="View cart"
-          className="flex h-12 w-12 min-w-[48px] items-center justify-center rounded-full hover:bg-fresh-500 flex-shrink-0"
-        >
-          <img src={CartImg} alt="Cart" className="h-8 w-8" />
-        </button>
       </nav>
 
       {/* ─── Mobile drawer ─── */}
@@ -88,7 +75,7 @@ export default function Navbar() {
           md:hidden
         `}
       >
-        {/* top bar with close + cart */}
+        {/* top bar with close */}
         <div className="flex justify-between items-center px-6 py-4">
           <button
             onClick={() => setOpen(false)}
@@ -96,9 +83,6 @@ export default function Navbar() {
             className="p-2"
           >
             <X size={24} className="text-white" />
-          </button>
-          <button aria-label="View cart" className="p-2">
-            <img src={CartImg} alt="Cart" className="h-6 w-6" />
           </button>
         </div>
 
