@@ -4,6 +4,7 @@ import FbIcon from "../../assets/footer/facebook.svg?react";
 import XIcon from "../../assets/footer/x.svg?react";
 import YtIcon from "../../assets/footer/youtube.svg?react";
 import TtIcon from "../../assets/footer/tiktok.svg?react";
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <footer className="bg-harmony-500 font-[Poppins] text-neutral1-500">
@@ -126,9 +127,17 @@ export default function Footer() {
                 Privacy Policy
               </a>
               <span className="text-fresh-500">|</span>
-              <a href="#" className="text-fresh-500 hover:underline">
+              <span className="text-fresh-500">|</span>
+              <Link
+                to="/terms"
+                className="text-fresh-500 hover:underline"
+                onClick={() => {
+                  console.log("Terms link clicked");
+                  window.scrollTo(0, 0);
+                }}
+              >
                 Terms of Use
-              </a>
+              </Link>
             </div>
 
             <p className="text-justify text-[13px] leading-[1.475rem] lg:max-w-[43vw] text-neutral-200">

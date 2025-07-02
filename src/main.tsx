@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer.tsx";
 import Dog from "./components/dog-products/dogproducts.tsx";
 import ClinicInquiries from "./components/clinicinquiry/clinicinquiry.tsx";
 import HowItWorks from "./components/howitworks/howitworks.tsx";
+import Terms from "./components/terms/terms.tsx"; // ADD THIS LINE
 import "./index.css";
 
 const AppLayout = () => (
@@ -36,6 +37,7 @@ const router = createBrowserRouter([
       { path: "/myDogDNAge", element: <Dog /> },
       { path: "/our-science", element: <About /> },
       { path: "/clinic-inquiry", element: <ClinicInquiries /> },
+      { path: "/terms", element: <Terms /> }, // THIS SHOULD BE HERE
     ],
   },
 ]);
