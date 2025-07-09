@@ -51,372 +51,317 @@ export default function PrivacyPolicy() {
 
         {/* HEADER */}
         <header className="text-left">
-          <p className="mt-6 sm:mt-8 lg:mt-10 mb-3 sm:mb-4 text-base sm:text-lg md:text-xl lg:text-2xl leading-snug text-[#7F7F7F]">
-            Please read through this thoroughly to understand the legalities
-            behind our service.
+          <p className="mt-6 sm:mt-8 lg:mt-10 mb-3 sm:mb-4 text-base sm:text-lg md:text-xl lg:text-2xl leading-snug text-[#4F7FA8]">
+            Please read through this thoroughly to understand how we use and
+            process your information.
           </p>
         </header>
 
         {/* MAIN CONTENT */}
         <div className="text-left text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-[#7F7F7F] py-2">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Highlights and How We Use the Information You Provide
+          </h2>
           <p className="mb-6">
-            These terms of service (the "Terms") apply for the myDNAge
-            epigenetic age determination service (the "Service") when you use
-            the myDNAge website or other mobile application (collectively the
-            "Site") operated by Epimorphy, LLC. These Terms are a legal contract
-            between you and Epimorphy, LLC (referred to as "Epimorphy", also
-            referred to as "We", or "US", herein). By checking the box when
-            checking out for your order of the Service you agree to these Terms.
+            The myDNAge epigenetic age determination service and myDNAge.com
+            website (each and collectively a "Service", "Test" or "Site") are
+            owned and operated by Epimorphy, LLC, (referred to as "Epimorphy" or
+            also referred to "We", or "US", herein). This privacy policy (the
+            "Privacy Policy") gives you information on how we collect, use and
+            sometimes transfer your personal information when you visit our web
+            site as well as the safeguards we use to protect it. The most
+            current version of the Privacy Policy can be viewed clicking on the
+            "Privacy Policy" link at the bottom of the page of our Site.
+          </p>
+          <p className="mb-6">
+            We ask that you review this Privacy Policy thoroughly and contact us
+            if there are any questions. Additionally, we are committed to making
+            our data privacy practices transparent and have made updates to our
+            Privacy Policy in accordance with and seek to comply with the
+            General Data Protection Regulation (GDPR) requirements to the best
+            of our knowledge.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            1. Updates and Disclaimer
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Consent and Opting Out
           </h2>
           <p className="mb-4">
-            We may change or modify the Terms at any time for any reason at our
-            sole discretion. The most current version of the Terms (and Privacy
-            Policy) can be viewed clicking on the "Terms of Service" (or
-            "Privacy Policy" Link) link at the bottom of the page of our Site.
-            By ordering our Service and using our Site you agree to these Terms
-            and our Privacy Policy.
+            By visiting our Site, ordering from us, or registering with us you
+            accept and consent to this Privacy Policy. Thus, by providing your
+            Personal Information ("Information" or "Personal Information"), you
+            agree that we may collect, use, share and transfer that information
+            in accordance with the terms and conditions of this Privacy Policy.
+            Also, our Terms of Service are incorporated by this reference in its
+            entirety into this Privacy Policy.
           </p>
           <p className="mb-6">
-            The Epimorphy myDNAge epigenetic age determination test is not
-            intended to be health information or medical data or to be used to
-            screen, diagnose, treat, prevent or assess risk of any disease or
-            condition. The myDNAge service is an epigenetic age determination
-            test grounded on scientific research that uses marks on numerous
-            places on your DNA, called methylation, which is an epigenetic
-            phenomenon. The myDNAge service is available for individuals 21
-            years of age or older. This service has not been cleared or approved
-            by U. S. Food and Drug Administration.
+            You may revoke this consent by contacting Epimorphy and revoking
+            your consent at any time, requesting your information be deleted.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            2. Ordering the Service
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Contact Epimorphy
           </h2>
           <p className="mb-6">
-            You promise that you are 21 years of age when ordering the Service
-            and agree and acknowledge to this requirement for ordering the
-            Service. Further, you agree to provide a sample ("Sample") under
-            your order and that we own the Sample material ("DNA", "RNA", or
-            "protein") and data generated therefrom once it is received. This
-            means we may use this Sample and data generated from the Sample for
-            our purposes for improving our understanding of biological age
-            without limitation. We require that you complete our standard
-            questionnaire as a condition for us providing the Service. We may
-            change our questionnaire from time to time at our sole discretion.
-            In some cases, we may require a second or more questionnaires which
-            will be communicated to you before you order the Service. If you do
-            not complete the questionnaire or questionnaires, we will not
-            activate your kit or process your Sample for the Service. Once you
-            submit your order for the Service, we will not cancel the order or
-            refund your fee. The fee we charge you is a processing fee, which we
-            do not refund even if we cannot complete the Service for any reason;
-            for example due to sample or processing problems or issues, or if
-            you change your mind immediately after ordering or if the report we
-            provide to you is not to your liking. This is true regardless of how
-            soon after submission you might attempt to request cancellation of
-            the order. Therefore, please review ALL information carefully prior
-            to ordering the Service via the Site. You may order for others such
+            If you have any questions, concerns or complaints about this Privacy
+            Policy or privacy-related practices, please contact Epimorphy by
+            email at info@myDNAge.com or phone at 833-693-6243.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Scope of Information Collected, Ordering and Providing Your
+            Information
+          </h2>
+          <p className="mb-4">
+            We collect no Information about you when you visit our Site unless
+            you choose to provide Information to us when you use our Site, order
+            from us, or register with us or provide information to our personnel
+            at trade shows or via emails. Epimorphy's web servers or other
+            computers and customer service personnel collect your contact
+            information when you place orders. This includes name (personal or
+            entity), address, phone number, facsimile number (Fax), email
+            address, credit card number, or other identifier for billing or
+            shipping in order for us to process and complete an order for our
+            products or services. Also, sometimes we may ask you to voluntarily
+            provide us or we may provide information to you about promotions,
+            scientific interests, new products, technical updates or changes,
+            contact preferences, and other information.
+          </p>
+          <p className="mb-6">
+            When you order the Service we ask for you to give your name, age and
+            addresses (email and mailing), often called personally identifiable
+            information ("PII"), as well as answers to questions designed to
+            gather information to help us improve the Service and to develop
+            additional services to offer to you. Our questions will either be in
+            a standard questionnaire or added questionnaire or questionnaires
+            that may be requested from time to time in some cases. We do not
+            collect and do not consider this information to be protected health
+            information as defined under federal law. We then de-identify or
+            obscure your name from the other information you provide and from
+            records for the Service to minimize the risk of unintended
+            disclosure of your identity and information about you to third
+            parties. We will ship you a sample collection kit including
+            instructions for use for sample types of urine or blood (vacutainer
+            or lancet) (collectively, "Sample") based on your selection on the
+            Site. You follow the instructions for harvesting the Sample and ship
+            us the Sample for processing for the Service. We will send you a
+            report featuring your myDNAge epigenetic age determination. We share
+            your information to allow us to perform and improve the Service as
+            indicated below. We also may collect general information about you
+            when you access the Site to aid us in improving the Site also as
+            indicated below.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            You Agree to Our Uses of Your Sample and Information
+          </h2>
+          <p className="mb-6">
+            We will use your sample to perform the Service and to report to you.
+            By ordering the Service you agree that we own and may use the sample
+            material ("DNA", "RNA", or "protein") and data generated therefrom
+            for any reason including but not limited to our internal uses which
+            include sharing with our Research Laboratory for improving the
+            Service as well as making new Services You may order for others such
             as for family members or friends, but each such individual must
             create their own account to activate their Sample kit on our Site.
-            We will report the result of the myDNAge test determined from our
-            analysis of your sample in a report comprising a biological age
-            determination only. No other data related to the analysis or our
-            methodology will be provided (e.g. the DNA methylation value and CpG
-            loci used for our analysis will not be reported; no information on
-            our algorithm will be reported). Your report will be accessible from
-            our website or mailed to you upon request. We reserve the right to
-            change the format and content of the report at any time for any
-            reason and may do so from time to time.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            3. Sample Requirements
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Children and Who may not Access the Service and Site
           </h2>
           <p className="mb-6">
-            We provide you one sample collection kit including instructions for
-            use for sample types of urine or blood (vacutainer or lancet)
-            (collectively, "Sample") based on your selection on the Site. This
-            Sample kit is designed to provide for enough sample material ("DNA")
-            for processing and performing the myDNAge epigenetic age
-            determination service (the Service") two times. If your Sample does
-            not provide enough DNA we will notify you and send one replacement
-            Sample kit for a second attempt to process your Sample. If the
-            replacement Sample kit does not provide enough DNA for performing
-            the Service, you agree this terminates the order and agree that must
-            pay for any replacement Sample kit or re-order paying for Service
-            again.
+            We do not offer the Service or access to the Site for children or
+            adults under the age of 21. The Service and Site are intended for
+            individuals 21 years of age or older.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            4. Privacy
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Who We Share Information With and Measures We Take for Security
           </h2>
           <p className="mb-6">
-            By using the Services and Site you indicate that you understand the
-            information collection, use, and disclosure practices described in
-            the Privacy Policy.
+            We share your PII with our associated research laboratory Zymo
+            Research Corp. ("Research Laboratory") with whom we work closely to
+            provide and improve the Service offered via the Site. We may share
+            your PII with other such associates from time to time to improve the
+            Service or develop new services. When you provide us your PII, we
+            are committed to safeguarding your privacy and take a variety of
+            reasonable steps to ensure none of your information is disclosed
+            beyond those with a need to know or use such information related to
+            our internal uses or to that of our Research Laboratory or other
+            associates. However, no precautions can absolutely ensure that your
+            PII or other information is completely secure.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            5. Your Representations
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Other Sharing of Information
+          </h2>
+          <p className="mb-6">
+            We may share and transfer your PII to our other associated
+            companies, affiliates, agents, vendors or service providers who
+            assist us in the process of providing products and services to you
+            or assist us in other ways. We do not sell or otherwise benefit
+            monetarily from transferring your information. We also may disclose
+            Information to third parties where we believe in good faith that
+            disclosure is required by law, to cooperate with authorities (law
+            enforcement) or to comply with a legal proceedings (public or
+            private) or to protect the safety, rights, or property of you or us
+            or the public. At some future date we may buy or sell or otherwise
+            transfer a business unit or asset from or to another entity, we may
+            share or transfer your information pursuant to the terms and
+            conditions of any such transaction.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Sharing your myDNAge Report
+          </h2>
+          <p className="mb-6">
+            We will only share the myDNAge report (or its data or results) with
+            third parties (e.g. physicians, other care providers or
+            professionals, etc.) with your authorization.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Other Information about You
+          </h2>
+          <p className="mb-6">
+            When we collect your PII this includes other non-personally
+            identifying or potentially personally identifying information and
+            statistics on how you use our Site including time spent on various
+            pages when these are viewed and IP addresses. We may use this
+            additional information without reservation including providing it
+            publicly or to third parties as we see fit. Our Site uses cookies to
+            facilitate use of the Site that store information on your computer
+            when you success our site. If you do not want to have cookies placed
+            on your computer you should not check the keep me logged in check
+            box when this arises.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Tracking Technology
+          </h2>
+          <p className="mb-6">
+            Epimorphy's Site automatically uses cookies or other similar
+            tracking tools or technology to track use and to facilitate and
+            enhance the user experience (collectively "Cookies"). Cookies are
+            small pieces of text that are stored on your computer's hard drive
+            by your browser. Our websites may use both Cookies that we implement
+            and Cookies implemented by our suppliers and other third parties.
+            With cookies in place, our system will recognize you whenever you
+            use your web browser to connect to our page. Most web browsers allow
+            you to exercise control over Cookie to disable them but this may
+            affect or stop you from using certain features of our websites such
+            as interactive options or some purchasing features. You may choose
+            not to take advantage of these interactive features and you can set
+            your browser to reject Cookies or to alert you when a cookie has
+            been sent. Due to this automatic collection of Cookies, we do not
+            honor "do not track" requests. We do not have access or control over
+            of third-party Cookies and consider them to be outside the scope of
+            this Privacy Policy.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Aggregating Information
+          </h2>
+          <p className="mb-6">
+            We may combine your information with others for our purposes to
+            improve the Service or to develop added Services. When we aggregate
+            information we remove it of PII to reduce the chances of exposing
+            any such information. We also store information in compliance with
+            GDPR requirements.
+          </p>
+
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Storage, Security and Retention of Information
           </h2>
           <p className="mb-4">
-            By ordering the Service and using the Site you agree, acknowledge
-            and promise the following is true and that you have the legal
-            authority in the jurisdiction in which you reside to make these
-            statements:
-          </p>
-          <p className="mb-2">
-            5.1 You understand and acknowledge that the Service and its myDNAge
-            epigenetic age determination Service is not intended to be health
-            information or medical data or to be used to screen, diagnose,
-            treat, prevent or assess risk of any disease or condition.
-          </p>
-          <p className="mb-2">
-            5.2 You give permission for Epimorphy and its Research Laboratory or
-            other associates to process your Sample and perform the myDNAge
-            epigenetic age determination on the Sample and to use the Sample and
-            data generated therefrom per these Terms. We will deidentify Sample
-            and data of personally identifiable information to the extent
-            reasonably possible and as set forth in our Privacy Policy.
-          </p>
-          <p className="mb-2">
-            5.3 You represent that you are an individual person and are 21 years
-            of age or older and are legally authorized to order the Service.
-          </p>
-          <p className="mb-2">
-            5.4 You understand that by providing your Sample processed for the
-            Service that you do not acquire any rights to any intellectual
-            property of any kind in the Service or improvements made to the
-            Service or new Services or products made therefrom.
-          </p>
-          <p className="mb-2">
-            5.5 You promise that you are not a covered entity or business
-            associate of a covered entity as defined under federal law or an
-            insurance company or employer seeking information on a policy holder
-            or employee.
-          </p>
-          <p className="mb-2">
-            5.6 You promise that the information that you provide for the
-            Service is accurate to the best of your knowledge and that the
-            Sample is your sample.
+            We use robust internal and third party physical and technical
+            measures intended to safeguard your information and help protect
+            this information from unauthorized access or loss. You are
+            responsible for maintaining the confidentiality of any required
+            passwords to access our websites (if any). We use our best efforts
+            and comply with US state and federal and other law such as the GDPR
+            (when applicable; EEA) for data security but cannot guarantee
+            complete security. If you believe your data is compromised contact
+            us and we will conduct a review and take action to rectify or
+            mitigate any such compromise of your information.
           </p>
           <p className="mb-6">
-            5.7 You agree and accept that completing our questionnaire or
-            questionnaires is a condition for us providing the Service.
+            We retain data for a reasonable time and at least as long as
+            required by applicable law, and for periods of time needed for
+            Epimorphy to pursue our obligation to meet your needs and other
+            business needs (audits, quality management system compliance), legal
+            obligations, dispute resolution or enforcing agreements. You may
+            access, correct, and update your information by accessing your
+            accounts or profiles, where relevant, on the websites or by
+            contacting us via phone. You may request a summary of information we
+            hold about you, as well as corrections, updates or deletion of your
+            information, by contacting us at info@myDNage.com. Our response to
+            such requests will be limited to information under our direct
+            control. We will make best efforts to respond promptly to such
+            requests in accordance with our legal obligations by applicable
+            rules and laws.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            6. Copyright, Trademark and Intellectual Property
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Protection
           </h2>
           <p className="mb-6">
-            All materials on the Site, including but not limited to written
-            content, images, illustrations, downloads, audio clips, and video
-            clips ('Material') are owned or controlled by Epimorphy and are
-            protected by worldwide copyright laws (as well as trademark and
-            other applicable intellectual property laws). You may download
-            Material only for your personal, non-commercial purposes (viewing,
-            reading and retaining for reference) but no modification or further
-            reproduction of the content is permitted. The content may otherwise
-            not be copied or used in any way. UNAUTHORIZED COPYING,
-            REPRODUCTION, REPUBLISHING, UPLOADING, DOWNLOADING, POSTING,
-            TRANSMITTING, DISTRIBUTION, OR DUPLICATING OF ANY OF THE MATERIAL
-            (WHETHER FOR COMMERCIAL OR NON-COMMERCIAL PURPOSES) IS PROHIBITED.
-            All rights in the product names, company names, trade names, logos,
-            service marks, trade dress, slogans, product packaging, and designs
-            of the Services, whether or not appearing in large print or with the
-            trademark symbol, belong exclusively to Epimorphy or its licensors
-            and are protected from reproduction, imitation, dilution, or
-            confusing or misleading uses under national and international
-            trademark and copyright laws. The use or misuse of these trademarks
-            or any materials, except as permitted herein, is expressly
-            prohibited, and nothing stated or implied on the Services confers on
-            you any license or right under any patent or trademark of Epimorphy,
-            or its associates (e.g. Research Laboratory or other associate), or
-            any third party.
+            We use information in connection with various legal proceedings from
+            time to time to protect your or our rights. In this regard, In
+            addition, we may disclose information about you to a third party at
+            your request, or if you consent to the disclosure.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            7. Prohibitions
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            European Economic Area (EEA)
           </h2>
+          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold leading-snug text-[#4F7FA8] mb-3">
+            Legal Basis for Processing Your Personal Information (EEA Only)
+          </h3>
+          <p className="mb-4">
+            If you are located in the European Union or Switzerland and you have
+            a data privacy or data use concern that you feel has not been fully
+            addressed, you have the right to contact the relevant EU data
+            protection authority or the Swiss Federal Data Protection and
+            Information Commissioner, as applicable.
+          </p>
+          <p className="mb-4">
+            If you are an individual from the EEA, our legal basis for
+            collecting and using Personal Information will depend on the
+            Personal Information concerned and the specific context in which we
+            collect it.
+          </p>
           <p className="mb-6">
-            You may not access or use, or attempt to access or use, the Services
-            to take any action that could harm us or any third party, interfere
-            with the operation of the Services, or use the Services in a manner
-            that violates any laws.
+            In some cases, we may also have a legal obligation to collect
+            Personal Information from you or may otherwise need the Personal
+            Information to protect your vital interests or those of another
+            person. If we ask you to provide Personal Information to comply with
+            a legal requirement or to perform a contract with you, we will make
+            this clear at the relevant time and will advise you whether or not
+            the provision of your Personal Information is mandatory, as well as
+            of the possible consequences if you do not provide your Personal
+            Information. Similarly, if we collect and use your Personal
+            Information in reliance on our or a third party's legitimate
+            interests that are not already described in this Privacy Policy, we
+            will make clear to you at the relevant time what those legitimate
+            interests are. If you have any questions about or need further
+            information concerning the legal basis on which we collect and use
+            your Personal Information, please contact us as indicated above.
           </p>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            8. Registration
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#4F7FA8] mb-4">
+            Updates to Privacy Policy
           </h2>
           <p className="mb-6">
-            To register for the Service, you will create login credentials by
-            providing an email address to us and by selecting a username and
-            password. You also provide us certain information during the
-            registration process, which you agree to keep accurate and updated.
-            Each login is for a single user only. You are not allowed to share
-            or disclose your login credentials with any other user or person. We
-            may cancel or suspend your access to the Service and Site if you
-            share your credentials. You will be responsible for all usage and
-            activity on your account, including use of the account by any third
-            party authorized by you to use your login credentials, and for all
-            charges for any goods or services. You are also responsible for all
-            statements made or materials posted under your account, including
-            liability for harm caused by such statements or materials. You may
-            not transfer, sell, or otherwise assign your rights or obligations
-            under these Terms. You must be 21 years or older to use the Service
-            and Site. Any fraudulent, abusive, or otherwise illegal activity may
-            be grounds for termination of your account, at our sole discretion,
-            and we may refer you to appropriate law enforcement agencies.
-          </p>
-
-          {/* Continue with sections 9-15... */}
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            9. Third Party Content
-          </h2>
-          <p className="mb-6">
-            The Services may contain third-party owned content and links to
-            other websites ("Linked Sites"). We do not endorse, sponsor,
-            recommend, or otherwise accept responsibility for any Linked Sites.
-            In addition, Linked Sites are not under the control of Epimorphy.
-            Epimorphy is not responsible for the content or privacy practices of
-            the Linked Sites.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            10. Disclaimer of Warranties
-          </h2>
-          <p className="mb-6">
-            THE SERVICE IS PROVIDED "AS IS." WE DO NOT WARRANT THAT THE SERVICES
-            WILL BE UNINTERRUPTED OR ERROR-FREE. THERE MAY BE DELAYS, OMISSIONS,
-            INTERRUPTIONS, AND INACCURACIES IN THE SITE FROM TIME TO TIME. IF
-            YOU RELY ON THE SERVICE AND ANY MATERIALS MADE AVAILABLE THROUGH THE
-            SERVICES, YOU DO SO SOLELY AT YOUR OWN RISK. WITHOUT LIMITING THE
-            GENERALITY OF THE FOREGOING, EPIMORPHY DISCLAIMS TO THE MAXIMUM
-            EXTENT PERMITTED BY LAW ANY AND ALL (A) WARRANTIES OF
-            MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, (B) WARRANTIES
-            AGAINST INFRINGEMENT OF ANY THIRD-PARTY INTELLECTUAL PROPERTY OR
-            PROPRIETARY RIGHTS, (C) WARRANTIES RELATING TO THE TRANSMISSION OR
-            DELIVERY OF THE SERVICE, (D) WARRANTIES RELATING TO THE ACCURACY,
-            RELIABILITY, CORRECTNESS, TIMELINESS OR COMPLETENESS OF DATA MADE
-            AVAILABLE ON THE SERVICE OR OTHERWISE BY EPIMORPHY, INCLUDING ANY
-            ADVICE, OPINION, STATEMENT, OR OTHER MATERIAL OR DATA DISPLAYED,
-            UPLOADED OR DISTRIBUTED IN THE SERVICE OR AVAILABLE THROUGH THE
-            SITE, AND WARRANTIES OTHERWISE RELATING TO PERFORMANCE,
-            NONPERFORMANCE, OR OTHER ACTS OR OMISSIONS BY THE EPIMORPHY OR ANY
-            THIRD PARTY. FURTHER, THERE IS NO WARRANTY THAT THE SERVICE WILL
-            MEET YOUR NEEDS OR REQUIREMENTS OR THE NEEDS OR REQUIREMENTS OF ANY
-            OTHER PERSON. EPIMORPHY MAKES NO WARRANTIES OR REPRESENTATIONS,
-            EXPRESS OR IMPLIED (A) THAT THE INFORMATION PROVIDED THROUGH THE
-            SERVICE WILL BE FREE FROM ERROR, OMISSION, INTERRUPTION, DEFECT, OR
-            DELAY IN OPERATION, OR FROM TECHNICAL INACCURACIES OR TYPOGRAPHICAL
-            ERRORS, (B) THAT THE SERVICES WILL BE AVAILABLE AT ANY PARTICULAR
-            TIME OR LOCATION (C) THAT DEFECTS OR ERRORS IN THE SERVICES WILL BE
-            CORRECTED, OR (D) THAT THE CONTENT ON THE SERVICE ARE FREE OF
-            VIRUSES OR OTHER HARMFUL COMPONENTS. ANY INFORMATION ON THE SERVICES
-            IS SUBJECT TO CHANGE WITHOUT NOTICE, AND THE EPIMORPHY DISCLAIMS ALL
-            RESPONSIBILITY FOR THE SERVICE. WE RESERVE THE RIGHT TO CORRECT ANY
-            ERRORS OR OMISSIONS IN THE SERVICE.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            11. Limitation of Liability
-          </h2>
-          <p className="mb-6">
-            IN NO EVENT WILL THE EPIMORPHY OR ITS RESEARH LABORATORY, ASSOCIATES
-            OR AFFILIATES OR ANY PARTY INVOLVED IN CREATING, PRODUCING, OR
-            DELIVERING THE SERVICE BE LIABLE FOR ANY DIRECT, INCIDENTAL,
-            CONSEQUENTIAL, INDIRECT, SPECIAL, OR PUNITIVE DAMAGES ARISING OUT OF
-            YOUR ACCESS, USE, MISUSE, OR INABILITY TO USE THE SERVICE OR ANY
-            LINKED SITES, OR IN CONNECTION WITH ANY FAILURE OF PERFORMANCE,
-            ERROR, TRANSMISSION, COMPUTER VIRUS, OR LINE OR SYSTEM FAILURE.
-            THESE LIMITATIONS APPLY WHETHER THE ALLEGED LIABILITY IS BASED ON
-            CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, INTELLECTUAL PROPERTY
-            INFRINGEMENT, PRIVACY OR ANY OTHER BASIS, EVEN IF THE EPIMORPHY HAS
-            BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. BECAUSE SOME
-            JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL
-            OR CONSEQUENTIAL DAMAGES, EPIMORPHY'S LIABILITY IN SUCH
-            JURISDICTIONS SHALL BE LIMITED TO THE EXTENT PERMITTED BY LAW.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            12. Indemnification
-          </h2>
-          <p className="mb-6">
-            You shall indemnify and hold harmless Epimorphy, including its
-            officers, directors, employees, and agents including its Research
-            Laboratory associate and other associates from any and all
-            liability, claims, loss, damages, expenses, or judgments (including
-            court or arbitration costs and attorneys' fees) arising from an act
-            or omission or representation of you for violation of the Terms or
-            use of the report and data generated from the Service performed by
-            Epimorphy. We reserve the right to take over the exclusive defense
-            of any claim for which we are entitled to indemnification under this
-            Section. In such event, you shall provide us with such cooperation
-            as is reasonably requested by us.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            13. Governing law and Dispute Resolution
-          </h2>
-          <p className="mb-6">
-            This Agreement shall be construed and interpreted in accordance with
-            the laws of the state of Delaware without regard to conflict of law
-            principles. Both parties to this Agreement agree that disputes may
-            arise from time to time with regard to either party's rights or
-            obligations under this Agreement and further agrees to negotiate in
-            good faith for at least sixty (60) days to seek resolution of any
-            such dispute before third parties may be asked to interpret this
-            Agreement for any such dispute. The parties also agree that all such
-            remaining disputes shall be resolved by final and binding
-            arbitration by a panel of three (3) arbitrators designated by the
-            American Arbitration Association ("AAA") by its rules for complex
-            commercial transactions in effect on the effective date of this
-            Agreement. Any arbitration under this Agreement shall be in Irvine
-            or Costa Mesa, California. Except as required by law, the parties,
-            their representatives, other participants, and the arbitrator shall
-            hold the existence, content and result of the arbitration in
-            confidence. Nothing in this clause shall be construed to preclude a
-            party from seeking injunctive relief to protect its rights pending
-            arbitration. A request by a party to a court for such injunctive
-            relief shall not be deemed a waiver of the obligation to arbitrate.
-            By using the Service, you waive any claims that may arise under the
-            laws of other states, countries, territories or jurisdictions.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            14. Termination
-          </h2>
-          <p className="mb-6">
-            Epimorphy may terminate this agreement for any reason at any time.
-            Epimorphy reserves the right, in its sole discretion, to restrict,
-            suspend, or terminate your access to and use of the Service, with or
-            without prior notice. Otherwise applicable sections of the Terms
-            shall survive termination. In addition to any termination rights, we
-            reserve the right to enforce and prosecute any violations of these
-            Terms.
-          </p>
-
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold leading-snug text-[#393D43] mb-4">
-            15. General
-          </h2>
-          <p className="mb-6">
-            No Waiver. The failure of Epimorphy to enforce any provisions of the
-            Terms or to respond to a breach by you or other parties shall not in
-            any way waive its rights to enforce subsequently any terms or
-            conditions of the Terms or to act with respect with similar
-            breaches. You agree that no joint venture, partnership, employment,
-            or agency relationship exists between you and Epimorphy as a result
-            of these Terms or your access to and use of the Services. Unless
-            otherwise specified herein, the Terms constitute the entire
-            agreement between you and Epimorphy and govern your use of the
-            Service and Site. If any portion of the Terms is held invalid or
-            unenforceable, that portion shall be construed in a manner
-            consistent with applicable law to reflect, as nearly as possible,
-            the original intention of the parties, and the remaining portions
-            shall remain in full force and effect.
+            Please note this Privacy Policy may be updated and changed from time
+            to time without our notifying you. Changes will be effective upon
+            the date the revised Privacy Policy is posted on the websites, with
+            the effective date noted in the Policy header at the top of this
+            page. When you visit our websites, you accept the version of this
+            Privacy Policy in effect at that time. We recommend you check the
+            Site for the most current Privacy Policy then in effect. When you
+            visit our websites, you accept the version of this Privacy Policy in
+            effect at that time.
           </p>
         </div>
       </div>
