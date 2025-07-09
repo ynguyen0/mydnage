@@ -22,15 +22,18 @@ export default function Footer() {
             healthier, longer, better.
           </p>
 
-          <button
-            className="
-              inline-flex h-12 items-center justify-center rounded-[2.0625rem]
-              bg-neutral1-500 px-5 py-[0.5625rem] text-harmony-500 font-semibold
-              transition-opacity hover:opacity-90
-            "
-          >
-            Contact&nbsp;Us
-          </button>
+          <a href="mailto:info@myDNAge.com">
+            <button
+              className="
+      inline-flex h-12 items-center justify-center rounded-[2.0625rem]
+      bg-neutral1-500 px-5 py-[0.5625rem] text-harmony-500 font-semibold
+      transition-opacity hover:opacity-90
+    "
+            >
+              Contact&nbsp;Us
+            </button>
+          </a>
+
         </div>
 
         {/* divider */}
