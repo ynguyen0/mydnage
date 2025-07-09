@@ -5,6 +5,7 @@ import XIcon from "../../assets/footer/x.svg?react";
 import YtIcon from "../../assets/footer/youtube.svg?react";
 import TtIcon from "../../assets/footer/tiktok.svg?react";
 import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer className="bg-harmony-500 font-[Poppins] text-neutral1-500">
@@ -119,14 +120,16 @@ export default function Footer() {
                 © Epimorphy LLC, 2025. All Rights Reserved.
               </p>
               <span className="text-fresh-500">|</span>
-              <a href="#" className="text-fresh-500 hover:underline">
-                Accessibility Statement
-              </a>
-              <span className="text-fresh-500">|</span>
-              <a href="#" className="text-fresh-500 hover:underline">
+              <Link
+                to="/privacy-policy"
+                className="text-fresh-500 hover:underline"
+                onClick={() => {
+                  console.log("Terms link clicked");
+                  window.scrollTo(0, 0);
+                }}
+              >
                 Privacy Policy
-              </a>
-              <span className="text-fresh-500">|</span>
+              </Link>
               <span className="text-fresh-500">|</span>
               <Link
                 to="/terms"
