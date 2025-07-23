@@ -8,103 +8,96 @@ import { Link } from "react-router-dom";
 import running from "../../assets/running.png";
 import dna from "../../assets/dna.png";
 import Collapsible from "./Collapsible";
-import blue from "../../assets/blue.png";
-import blueline from "../../assets/blue-line.png";
-import white from "../../assets/white.png";
 import line from "../../assets/vector-line.png";
+import gradient2 from "../../assets/vector-2.png";
 
 export default function Landing() {
   return (
     <main className="relative min-h-screen overflow-hidden">
       {/* Background decorative images - responsive positioning */}
-      <img
-        src={line}
-        alt="Decorative corner graphic"
-        className="
-                    absolute top-10 left-20
-                    w-[300px] h-[300px]
-                    sm:top-21 sm:left-40 sm:w-[500px] sm:h-[500px]
-                    md:left-60 md:w-[600px] md:h-[600px]
-                    lg:top-21 lg:left-80 lg:w-[700px] lg:h-[700px]
-                    xl:left-96
-                    pointer-events-none
-                    z-0
-                    opacity-50 sm:opacity-100
-                "
-      />
+      <section className="relative">
+        <div
+          className="fixed top-0 right-0 w-full h-full z-0 pointer-events-none overflow-hidden"
+          aria-hidden="true"
+        >
+          <img
+            src={gradient2}
+            alt="Decorative corner graphic"
+            className="
+      absolute -top-16 right-0
+      w-[500px] h-[500px]
+      sm:w-[400px] sm:h-[400px]
+      lg:w-[800px] lg:h-[800px]
+      transform -scale-x-100
+      pointer-events-none
+      z-0
+    "
+          />
 
-      <img
-        src={blue}
-        alt="Decorative corner graphic"
-        className="
-                    absolute top-10 -right-20
-                    w-[400px] h-[400px]
-                    sm:top-20 sm:right-0 sm:w-[600px] sm:h-[600px]
-                    md:w-[800px] md:h-[700px]
-                    lg:w-[1000px] lg:h-[800px]
-                    xl:w-[1100px]
-                    pointer-events-none
-                    z-0
-                "
-      />
+          <img
+            src={gradient2}
+            alt="Decorative corner graphic"
+            className="
+      absolute top-[280px] right-0
+      w-[500px] h-[500px]
+      sm:w-[200px] sm:h-[200px]
+      lg:w-[650px] lg:h-[650px]
+      transform -scale-x-100
+      pointer-events-none
+      z-0
+    "
+          />
 
-      <img
-        src={white}
-        alt="Decorative corner graphic"
-        className="
-                    absolute top-20 -right-10
-                    w-[350px] h-[350px]
-                    sm:top-[100px] sm:right-0 sm:w-[600px] sm:h-[600px]
-                    md:w-[800px] md:h-[650px]
-                    lg:w-[900px] lg:h-[700px]
-                    xl:w-[1010px]
-                    pointer-events-none
-                    z-0
-                "
-      />
+          <img
+            src={line}
+            alt="Decorative corner graphic"
+            className="
+      absolute top-0 right-0
+      w-[500px] h-[500px]
+      sm:w-[200px] sm:h-[200px]
+      lg:w-[500px] lg:h-[500px]
+      transform -scale-x-100
+      pointer-events-none
+      z-0
+    "
+          />
+        </div>
 
-      <img
-        src={blueline}
-        alt="Decorative corner graphic"
-        className="
-                    absolute top-20 right-10
-                    w-[250px] h-[250px]
-                    sm:top-30 sm:right-20 sm:w-[400px] sm:h-[400px]
-                    md:right-40 md:w-[500px] md:h-[500px]
-                    lg:right-60 lg:w-[600px] lg:h-[600px]
-                    xl:right-80
-                    pointer-events-none
-                    z-0
-                    opacity-50 sm:opacity-100
-                "
-      />
+      </section>
 
       {/* Main content container */}
       <div className="relative z-10">
         {/* Hero section with absolute positioning for desktop, stacked for mobile */}
-        <section className="relative min-h-[400px] sm:min-h-[500px] lg:min-h-[700px] mb-12 md:mb-20">
+        <section className="relative min-h-[250px] sm:min-h-[350px] lg:min-h-[550px] mb-4 md:mb-8">
           {/* Text content */}
-          <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-8 md:py-16 lg:absolute lg:top-[200px] lg:left-[80px] xl:left-[120px] lg:max-w-[600px]">
-            {" "}
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-[#393D43] text-center lg:text-left">
-              Changing the way you age to live{" "}
-              <b>healthier, longer, and better</b>
-            </h1>
-          </div>
-
+          <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-8 md:py-16 
+          lg:absolute lg:top-[140px] lg:left-[100px] xl:left-[140px] 
+          max-w-full lg:max-w-[800px]">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
+            leading-snug sm:leading-tight text-[#393D43] 
+            text-center lg:text-left">
+            Changing the way you age to live <b>healthier, longer, and better</b>
+          </h1>
+        </div>
+        
           {/* Product image - absolute on desktop, centered on mobile */}
-          <div className="flex justify-center lg:absolute lg:top-[150px] lg:left-[50%] xl:top-[200px] xl:left-[48%] 2xl:left-[45%] px-6 lg:px-0">
-            {" "}
+          <div className="hidden lg:block absolute top-[75px] left-[calc(100%-36%)] xl:top-[125px] xl:left-[calc(100%-40%)] 2xl:left-[calc(100%-42%)]">
             <img
               src={product}
               alt="MyDNAge product"
-              className="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[340px] lg:h-[340px] xl:w-[380px] xl:h-[380px] object-contain"
+              className="w-[340px] xl:w-[380px] object-contain"
             />
           </div>
         </section>
 
         {/* Buttons section */}
-        <section className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 flex flex-col gap-4 mb-16 md:mb-24 max-w-4xl mx-auto lg:mx-0 lg:ml-[80px] xl:ml-[120px]">
+            <section className="mt-0 lg:-mt-[100px] px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32
+        flex flex-col gap-4 
+        mb-16 md:mb-24 
+        max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl 
+        mx-auto lg:mx-0 lg:ml-[80px] xl:ml-[120px]">
+
+
           {" "}
           <button
             type="button"

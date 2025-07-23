@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-harmony-500 font-[Poppins] text-neutral1-500">
+    <footer className="relative z-[10] bg-harmony-500 font-[Poppins] text-neutral1-500">
       <div className="mx-auto w-full max-w-[1750px] px-6 py-16">
         {/* ───────── Row 1: logo + headline + contact ───────── */}
         <div className="flex flex-col items-start gap-6 px6 pb-6">

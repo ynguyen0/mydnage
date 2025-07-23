@@ -17,7 +17,7 @@ import "./index.css";
 
 const AppLayout = () => (
   <div className="relative">
-    <LogoMark className="absolute left-8 top-8 md:left-20 md:top-20" />
+    <LogoMark className="absolute left-8 top-8 md:left-20 md:top-20 z-50" />
     <Navbar />
     <div className="pt-20">
       <Outlet />
