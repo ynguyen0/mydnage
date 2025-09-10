@@ -1,6 +1,5 @@
 // src/components/howitworks/HowItWorks.tsx
 import gradient2 from "../../assets/vector-2.png";
-import line from "../../assets/Vector Line.png";
 import {
   HowItWorksHero,
   FingerprickSection,
