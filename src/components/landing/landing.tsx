@@ -73,25 +73,26 @@ export default function Landing() {
           <div className="px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32 py-8 md:py-16 
           lg:absolute lg:top-[140px] lg:left-[100px] xl:left-[140px] 
           max-w-full lg:max-w-[800px]">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
+            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
             leading-snug sm:leading-tight text-[#393D43] 
             text-center lg:text-left">
-            Changing the way you age to live <b>healthier, longer, and better</b>
-          </h1>
-        </div>
-        
+              Changing the way you age to live <b>healthier, longer, and better</b>
+            </h1>
+          </div>
+
           {/* Product image - absolute on desktop, centered on mobile */}
-          <div className="hidden lg:block absolute top-[75px] left-[calc(100%-36%)] xl:top-[125px] xl:left-[calc(100%-40%)] 2xl:left-[calc(100%-42%)]">
+          <div className="hidden lg:block absolute top-[30px] left-[calc(100%-40%)] xl:top-[70px] xl:left-[calc(100%-40%)] 2xl:left-[calc(100%-40%)]">
             <img
               src={product}
               alt="MyDNAge product"
               className="w-[340px] xl:w-[380px] object-contain"
             />
           </div>
+
         </section>
 
         {/* Buttons section */}
-            <section className="mt-0 lg:-mt-[100px] px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32
+        <section className="mt-0 lg:-mt-[100px] px-6 sm:px-8 md:px-12 lg:px-20 xl:px-32
         flex flex-col gap-4 
         mb-16 md:mb-24 
         max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl 
