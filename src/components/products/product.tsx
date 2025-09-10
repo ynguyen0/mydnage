@@ -20,7 +20,7 @@ export default function Product() {
           absolute -top-15 left-0
           w-[500px] h-[500px]         /* bigger size—adjust as needed */
           sm:w-[400px] sm:h-[400px]   /* scale up on sm */
-          lg:w-[800px] lg:h-[800px]   /* and md */
+          lg:w-[700px] lg:h-[700px]   /* and md */
           pointer-events-none
           z-0                         /* send it behind the main content */
         "

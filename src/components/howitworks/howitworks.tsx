@@ -39,18 +39,6 @@ export default function HowItWorks() {
           z-0
         "
       />
-      <img
-        src={line}
-        alt="Decorative corner graphic"
-        className="
-          absolute top-0 left-0
-          w-[500px] h-[500px]
-          sm:w-[200px] sm:h-[200px]
-          lg:w-[500px] lg:h-[500px]
-          pointer-events-none
-          z-0
-        "
-      />
 
       {/* Main content */}
       <div className="relative z-10 px-6 sm:px-12 md:px-20 lg:px-28 py-16 md:py-20">
